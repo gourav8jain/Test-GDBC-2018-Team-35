@@ -1,0 +1,62 @@
+<style>img {max-width: 100%;page-break-inside: avoid;page-break-before: avoid;page-break-after: avoid;}</style><h1>Step By Step: Create automation scripts to create Azure resources</h1>
+
+<p>This step by step guide describes the steps for automatically creating a web app (with a service plan) and a database (with SQL server). This and assigning these resources to a resource group will be done by using the Azure CLI 2.0. If you want to use PowerShell, you'll need to convert all the steps to their PowerShell equivalent.</p>
+
+<h2>Reading parameters</h2>
+
+<ol>
+<li><p>Open your favourite script editor and create  new script. Save it as <code>CreateAzureResources.cmd</code></p></li>
+<li><p>Add the following line to save the first script argument in a variable called <code>Environment_name</code></p>
+
+<p><code>bash
+set Environment_name=%1
+</code></p></li>
+</ol>
+
+<h2>Creating a web application</h2>
+
+<ol>
+<li><p>Add the following lines to create a new app service plan and a new web application</p>
+
+<p>``` bash
+call az appservice plan create -g "RG-Playground-Teamname" -n "AppServicePlan-TeamName-%Environment_name%" --sku F1
+REM create appservice plan</p>
+
+<p>REM create azurewebapp 
+call az webapp create -g "RG-Playground-Teamname" -p "AppServicePlan-TeamName-%Environment<em>name%" -n "WebApp-TeamName-%Environment</em>name%"
+```</p></li>
+</ol>
+
+<h2>Creating a SQL server</h2>
+
+<ol>
+<li><p>Add the following lines to create a new SQL server and a database</p>
+
+<p>``` bash
+REM create SQL server
+call az sql server create --admin-password "vhniNTbo3$9hJvrx{w{rTotqmsFT7<em>" --admin-user "GDBCAdmin" --location "West Europe" --name "sqlserver-teamname-%Environment</em>name%" --resource-group "RG-Playground-Teamname"</p>
+
+<p>REM set firewall rule to allow azure resources access the database
+az sql server firewall-rule create --name "azureservices" --start-ip-address 0.0.0.0 --end-ip-address 0.0.0.0 --server "sqlserver-teamname-%Environment_name%" --resource-group "RG-Playground-Teamname"</p>
+
+<p>REM create SQL database
+call az sql db create --name  "db-teamname-%Environment<em>name%" --resource-group "RG-Playground-Teamname" --server "sqlserver-teamname-%Environment</em>name%"
+```</p></li>
+</ol>
+
+<p><strong>Note:</strong> The location of your SQL Server depends on where you created it earlier. Change the location in this script block if needed. The server name naming rules are: Servername can only be made up of lowercase letters 'a'-'z', the numbers 0-9 and the hyphen. The hyphen may not lead or trail in the name. </p>
+
+<h2>Running the script</h2>
+
+<ol>
+<li>Switch back to your Azure Command Prompt. If you accidentally closed it, re-open it and login by running <code>az login</code></li>
+<li>Navigate to the directory where you saved your script by typing <code>cd &lt;path where you saved your script&gt;</code></li>
+<li>Run <code>CreateAzureResources.cmd dev</code></li>
+<li>Check the Azure Portal to see that your resource group has been created and the correct security group was assigned.</li>
+</ol>
+
+<h2>Finished script</h2>
+
+<ol>
+<li>The finished script can be downloaded here:  <a href=".attachments/CreateAzureResources.zip">CreateAzureResources.zip</a></li>
+</ol>

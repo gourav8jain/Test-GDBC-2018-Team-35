@@ -1,0 +1,83 @@
+<style>img {max-width: 100%;page-break-inside: avoid;page-break-before: avoid;page-break-after: avoid;}</style><h1>Step By Step: Manually Set up Resource Groups for initial deployment of the web application</h1>
+
+<h2>Creating a resource group</h2>
+
+<ol>
+<li>Open the Azure Portal by navigating to <a href="https://portal.azure.com">https://portal.azure.com</a></li>
+<li>Click "Create a resource"</li>
+</ol>
+
+<p><img src=".attachments/image-b0c742fc-112a-46c0-aa18-b79d886ca280.png" alt="image.png"></p>
+
+<ol>
+<li>In the search box, search for "Resource Group"</li>
+</ol>
+
+<p><img src=".attachments/image-64253c72-9af5-49fa-b2cc-9dc43c031872.png" alt="image.png"></p>
+
+<ol>
+<li>In the search results, click "Resource group" and then click "Create"</li>
+</ol>
+
+<p><img src=".attachments/image-c9dcbbfb-1e00-47aa-9186-ea358e2cdc27.png" alt="image.png"></p>
+
+<ol>
+<li>Enter the resource group name, select your subscription and select the location closest to you as Resource group location. Then click "Create".</li>
+</ol>
+
+<p><img src=".attachments/image-7f4c3d18-00da-409e-a8b8-0c5f961b8f05.png" alt="image.png"></p>
+
+<ol>
+<li>After a little while your resource group will be created. Click "Go to resource group" to open it.</li>
+</ol>
+
+<p><img src=".attachments/image-752186fb-4172-4a8d-991d-d921dfabec0e.png" alt="image.png"></p>
+
+<ol>
+<li>You will see that your freshly created resource group is empty.</li>
+</ol>
+
+<p><img src=".attachments/image-238c5f62-e68d-4143-a7a3-6885ef0dd66d.png" alt="image.png"></p>
+
+<h2>Create security group and add members to security group</h2>
+
+<ol>
+<li>In the Azure portal navigate to the Azure Active Directory blade</li>
+</ol>
+
+<p><img src=".attachments/image-3a01bbf2-844e-4ffe-aa13-ce19aa77f32a.png" alt="image.png"></p>
+
+<ol>
+<li>In the blade, select Groups</li>
+</ol>
+
+<p><img src=".attachments/image-65b7e9d2-c59e-440c-9873-6c8c6a4943b6.png" alt="image.png"></p>
+
+<ol>
+<li>Press the + button to create a new security group</li>
+<li>Create a group call Azure (teamname). Select as Group type "Security"</li>
+<li>Select Members in the same blade </li>
+</ol>
+
+<p><img src=".attachments/image-403350b4-e260-45b5-9ad8-4f0a141d3af7.png" alt="image.png"></p>
+
+<ol>
+<li>Once the group is created, select "Members"</li>
+<li>Press the + Add Members button</li>
+<li>Search for "g-venue-" and select the members from your team and save the group</li>
+</ol>
+
+<h2>Assign security group to resource group</h2>
+
+<ol>
+<li>Find your Resource Group e.g. use the Search box</li>
+<li>In your resource group, click "Access control (IAM)", click "Add", select "Contributor" for the role and find your team through the search box.</li>
+</ol>
+
+<p><img src=".attachments/image-access1.png" alt="image.png"></p>
+
+<ol>
+<li>Select your team and click "Save". You should see your team being added as "Contributor" specific for this resource.</li>
+</ol>
+
+<p><img src=".attachments/image-access2.png" alt="image.png"></p>

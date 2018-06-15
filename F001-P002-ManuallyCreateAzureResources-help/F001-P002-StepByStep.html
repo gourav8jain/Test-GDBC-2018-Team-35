@@ -1,0 +1,90 @@
+<style>img {max-width: 100%;page-break-inside: avoid;page-break-before: avoid;page-break-after: avoid;}</style><h1>Step By Step: Add Azure Web App and SQL Server to the resource group</h1>
+
+<h2>Creating a Web App</h2>
+
+<ol>
+<li>Go to your newly created resource group and click "Create resources"</li>
+</ol>
+
+<p><img src=".attachments/image-ca1321f6-c0bf-4167-b5c3-fbc929c51334.png" alt="image.png"></p>
+
+<ol>
+<li>Search for "Web App", select it and click "Create"</li>
+</ol>
+
+<p><img src=".attachments/image-cde8a4b1-834b-4916-b281-8c53f0300ef7.png" alt="image.png"></p>
+
+<ol>
+<li>Enter a name for your new Web App, create a new App Service Plan for it, make sure you turn on Application Insights and click Create</li>
+</ol>
+
+<p><img src=".attachments/image-0d6a7a51-43c1-4044-a9d1-c93738ad94ea.png" alt="image.png"></p>
+
+<ol>
+<li>After some time you will get a notification that creation of the web app was successful</li>
+</ol>
+
+<p><img src=".attachments/image-53990de1-0d6f-4c1b-a817-847269ed8cdf.png" alt="image.png"></p>
+
+<h2>Create a SQL Database</h2>
+
+<ol>
+<li>Go back to your resource group (which now has the web app in it) and click "Add"</li>
+</ol>
+
+<p><img src=".attachments/image-8a44d1cf-0ab8-45ca-aca3-fe7c370ea0e1.png" alt="image.png"></p>
+
+<ol>
+<li>Search for "SQL Database", click "SQL Database" and then click "Create"</li>
+</ol>
+
+<p><img src=".attachments/image-71fbedef-30ec-474a-b951-af0f93791a4a.png" alt="image.png"></p>
+
+<ol>
+<li>Type a name for your database, select "Blank database" as source and configure a new server with admin credentials that will hold the database. Make sure you create a complex password, minimal 10 characters, and write down for later usage!</li>
+</ol>
+
+<p><img src=".attachments/image-984c50aa-4cc1-4e88-8bb8-6f3e85c4da9b.png" alt="image.png"></p>
+
+<ol>
+<li>Change the "Pricing tier" to "Basic" and click "Apply. Then click "Create"</li>
+</ol>
+
+<p><img src=".attachments/image-f9c74107-e706-4617-a647-ae0d09a57c9c.png" alt="image.png"></p>
+
+<ol>
+<li>After a while, your database will be created</li>
+</ol>
+
+<p><img src=".attachments/image-1d933d2d-6eb4-422d-82c8-7058649ad1f6.png" alt="image.png"></p>
+
+<h2>Creating a database table</h2>
+
+<ol>
+<li>Go to your resource group and click your freshly created database</li>
+</ol>
+
+<p><img src=".attachments/image-f7dba212-de1e-49d3-bade-4c19d41cf715.png" alt="image.png"></p>
+
+<ol>
+<li>Click "Query Editor (preview)" and click "Login". Login using the credentials you provided when creating the database.</li>
+</ol>
+
+<p><img src=".attachments/image-c61e15e4-1497-479f-a9a1-fdee2ba5f6be.png" alt="image.png"></p>
+
+<ol>
+<li>Type the following query to create the database table:
+<code>CREATE TABLE TestArtist (
+Id int primary key,
+Name varchar(255) not null
+)</code></li>
+<li>Click "Run" to run the query. The query should succeed.</li>
+</ol>
+
+<p><img src=".attachments/image-836dee50-d4a3-493f-9bcc-08419e8374a6.png" alt="image.png"></p>
+
+<ol>
+<li>Click the refresh button and you should see the new table with a primary key column "Id".</li>
+</ol>
+
+<p><img src=".attachments/image-4ea415c2-f9af-49f5-a4f8-02bafe8e27c5.png" alt="image.png"></p>

@@ -1,0 +1,56 @@
+<style>img {max-width: 100%;page-break-inside: avoid;page-break-before: avoid;page-break-after: avoid;}</style><h1>Step By Step: Automate Resource group creation and Security Groups assignment</h1>
+
+<p>This step by step guide describes the steps for automatically creating a resource group and assigning a security group by using the Azure CLI 2.0. If you want to use PowerShell, you'll need to convert all the steps to their PowerShell equivalent.</p>
+
+<h2>Retrieve the ObjectID of the security group</h2>
+
+<ol>
+<li>Start the Microsoft Azure Command Prompt on your computer</li>
+</ol>
+
+<p><img src=".attachments/image-de1bf982-4b51-458d-8c6b-46d53fd3b222.png" alt="image.png"></p>
+
+<ol>
+<li>Run <code>az login</code> and follow the instructions</li>
+<li>Get the name of the Security Group you created in the first challenge, use as Teamname below</li>
+<li>Run <code>az ad group show --group "Teamname"</code> and make note of the objectID in the result. </li>
+</ol>
+
+<p><img src=".attachments/image-9a1c51ed-d559-4011-81a6-0d1be48f9921.png" alt="image.png"></p>
+
+<h2>Creating the script</h2>
+
+<ol>
+<li>Open up your favourite editor (we're using <a href="https://code.visualstudio.com/">Visual Studio Code</a>) and create a new file.</li>
+<li>Save it as <code>CreateResourceGroup_Fixed.cmd</code></li>
+<li><p>Add the following code to create a resource group: </p>
+
+<p><code>bash
+REM create resource group
+call az group create --name "RG-Playground-Teamname" --location "West Europe"
+</code></p></li>
+<li><p>Then add the following lines to add the security group "Teamname" as contributor</p>
+
+<p><code>bash
+REM assign security group
+call az role assignment create --role Contributor --assignee-object-id "&lt;objectID of group&gt;" --resource-group "RG-Playground-Teamname"
+</code></p>
+
+<p>Replace <code>&lt;objectID of group&gt;</code> with the objectID that you retrieved in one of the previous steps, using the <code>az ad group show</code> command.</p></li>
+<li>Save your file</li>
+</ol>
+
+<h2>Running the script</h2>
+
+<ol>
+<li>Switch back to your Azure Command Prompt. If you accidentally closed it, re-open it and login by running <code>az login</code></li>
+<li>Navigate to the directory where you saved your script by typing <code>cd &lt;path where you saved your script&gt;</code></li>
+<li>Run <code>CreateResourceGroup_Fixed.bat</code></li>
+<li>Check the Azure Portal to see that your resource group has been created and the correct security group was assigned.</li>
+</ol>
+
+<h2>Finished script</h2>
+
+<ol>
+<li>The finished script is in the zip file <a href=".attachments/CreateResourceGroup_Fixed-2098d907-f3bf-4b97-8ce9-c24fd7f00506.zip">CreateResourceGroup_Fixed.zip</a>. Make sure to replace the objectID of your security group before running it. </li>
+</ol>

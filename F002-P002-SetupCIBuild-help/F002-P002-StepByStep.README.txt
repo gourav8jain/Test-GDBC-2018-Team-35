@@ -1,0 +1,17 @@
+You have requested help for challenge with code 'F002-P002-StepByStep'
+
+This zip file contains the step by steps with information how to complete this challenge.
+You have the following formats to choose from:
+
+  F002-P002-StepByStep.md   Markdown pointing to .attachments for the files. Make sure to extract the zip file first
+  F002-P002-StepByStep.html Html pointing to .attachments for the files. Make sure to extract the zip file first
+  F002-P002-StepByStep.pdf  PDF file with everything in it. No extraction needed
+
+
+#####                                         ######                #######                  ######
+#     # #       ####  #####    ##   #         #     # ###### #    # #     # #####   ####     #     #  ####   ####  #####  ####    ##   #    # ##### 
+#       #      #    # #    #  #  #  #         #     # #      #    # #     # #    # #         #     # #    # #    #   #   #    #  #  #  ##  ## #    #
+#  #### #      #    # #####  #    # #         #     # #####  #    # #     # #    #  ####     ######  #    # #    #   #   #      #    # # ## # #    #
+#     # #      #    # #    # ###### #         #     # #      #    # #     # #####       #    #     # #    # #    #   #   #      ###### #    # ##### 
+#     # #      #    # #    # #    # #         #     # #       #  #  #     # #      #    #    #     # #    # #    #   #   #    # #    # #    # #     
+ #####  ######  ####  #####  #    # ######    ######  ######   ##   ####### #       ####     ######   ####   ####    #    ####  #    # #    # #     

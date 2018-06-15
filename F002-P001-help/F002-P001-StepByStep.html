@@ -1,0 +1,35 @@
+<style>img {max-width: 100%;page-break-inside: avoid;page-break-before: avoid;page-break-after: avoid;}</style><h1>Step By Step: Setup Private Build Agent</h1>
+
+<ol>
+<li>You will need a Personal Access Token to authenticate the agent to VSTS. Follow the instructions found here to create a token: <a href="https://docs.microsoft.com/en-gb/vsts/pipelines/agents/prepare-permissions?view=vsts">https://docs.microsoft.com/en-gb/vsts/pipelines/agents/prepare-permissions?view=vsts</a></li>
+<li>Open a remote desktop connection to your claimed Virtual Machine.</li>
+<li><p>Open a powershell window and create a new folder for the agent.</p>
+
+<p><code>bash
+mkdir agent 
+cd agent
+</code></p></li>
+<li><p>Download the agent from <a href="https://vstsagentpackage.azureedge.net/agent/2.134.2/vsts-agent-win-x64-2.134.2.zip">https://vstsagentpackage.azureedge.net/agent/2.134.2/vsts-agent-win-x64-2.134.2.zip</a> and save it to the default downloads location</p>
+
+<p>Create the agent using the following command:</p>
+
+<p><code>powershell
+Add-Type -AssemblyName System.IO.Compression.FileSystem ; [System.IO.Compression.ZipFile]::ExtractToDirectory("$HOME\Downloads\vsts-agent-win-x64-2.134.2.zip", "$PWD")
+</code></p></li>
+<li><p>Configure the agent by running the config tool</p>
+
+<p><code>bash
+.\config.cmd
+</code></p>
+
+<ul>
+<li>Enter the VSTS server url for your team <code>https://globaldevopsbootcamp.visualstudio.com</code></li>
+<li>Press enter to select PAT authentication</li>
+<li>Enter the PAT token you generated at the start of this step-by-step</li>
+<li>When asked for the agent pool, use your team name.</li>
+<li>Press enter for the default agent name</li>
+<li>Press enter for the default working folder</li>
+<li>Choose Y to run the agent as a service</li>
+<li>Press enter to set the default Network Service account</li>
+</ul></li>
+</ol>

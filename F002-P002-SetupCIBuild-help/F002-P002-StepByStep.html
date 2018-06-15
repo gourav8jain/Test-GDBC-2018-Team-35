@@ -1,0 +1,96 @@
+<style>img {max-width: 100%;page-break-inside: avoid;page-break-before: avoid;page-break-after: avoid;}</style><h1>Step By Step: Setup a CI Build</h1>
+
+<h2>Create a Build Definition</h2>
+
+<ol>
+<li>Navigate to VSTS and select your project
+<a href="https://globaldevopsbootcamp.visualstudio.com">https://globaldevopsbootcamp.visualstudio.com</a></li>
+<li>Navigate to the "Build and Release" hub</li>
+<li>Create a "New" definition</li>
+</ol>
+
+<p><img src=".attachments/image-c3a9104b-8fa4-4cec-a3c3-dd0b46a1244b.png" alt="image.png"></p>
+
+<ol>
+<li>Configure the sources, select your correct team project, repository and branch. Then click "Continue".</li>
+</ol>
+
+<p><img src=".attachments/image-525b25b2-7509-4e44-9305-f6b8ff49fcb9.png" alt="image.png"></p>
+
+<ol>
+<li>Select a template, use "ASP.NET", click "Apply"</li>
+</ol>
+
+<p><img src=".attachments/image-c2fb3feb-27f6-45f0-a425-e3f590b8e49c.png" alt="image.png"></p>
+
+<ol>
+<li>Specify / change your build name and select the private build agent that you have installed as agent queue</li>
+<li>If your repository contains multiple solutions, select the specific solution</li>
+</ol>
+
+<p><img src=".attachments/image-8061d72b-3876-4f10-ad15-bc04065abd81.png" alt="image.png"></p>
+
+<ol>
+<li>Select the Visual Studio Build step, notice the MSBuild Arguments, this will provide a published </li>
+</ol>
+
+<p><img src=".attachments/image-fe8f5d37-d533-4a19-b9f6-5b329a94a941.png" alt="image.png"></p>
+
+<ol>
+<li>Select the "Test Assemblies" step, review the settings. Change the value for testassemblies from <code>**\$(BuildConfiguration)\*test*.dll</code>  to <code>**\$(BuildConfiguration)\*nunit.unittest*.dll</code>. This will only run the NUnit unit tests after the build.
+<img src=".attachments/image-26999b70-fadf-450a-a711-a4a87ce316f2.png" alt="image.png"></li>
+</ol>
+
+<h2>Enable Continuous Integration for your build ##</h2>
+
+<ol>
+<li>While editing your build definition, navigate to the "Triggers" tab</li>
+<li>Check the "Enable continuous integration" option</li>
+</ol>
+
+<p><img src=".attachments/image-9eff0a58-4a2b-4f71-b9d5-9565f8395d86.png" alt="image.png"></p>
+
+<h2>Run the build</h2>
+
+<ol>
+<li>Press "Save &amp; queue" to save and trigger the new build</li>
+</ol>
+
+<p><img src=".attachments/image-988a5de2-c8de-40bb-a120-5dc8dbbf40fb.png" alt="image.png"></p>
+
+<ol>
+<li>Notice the feedback for the build being queued. Select the link to navigate to the build</li>
+</ol>
+
+<p><img src=".attachments/image-c073e497-f7bc-4f87-ad9c-392d8947c500.png" alt="image.png"></p>
+
+<ol>
+<li>VSTS Provides direct feedback from the build agent</li>
+</ol>
+
+<p><img src=".attachments/image-81630b85-50a5-4554-bcf6-1f3f126557ae.png" alt="image.png"></p>
+
+<ol>
+<li>After the build succeeds, refresh the browser</li>
+<li>Notice the new "Artifacts" tab, and click it.</li>
+</ol>
+
+<p><img src=".attachments/image-5a150e77-4891-41d9-ba95-38c6f19e3c01.png" alt="image.png"></p>
+
+<ol>
+<li>Select the "Explore" button behind the created artifact.</li>
+<li>Expand the "Drop" folder</li>
+<li>Check &amp; Verify the desired output is part of the artifact. In this case a ".zip" file containing the application.</li>
+</ol>
+
+<h2>Check that CI is triggered when a change to the code is pushed</h2>
+
+<ol>
+<li>Open the MVC Music Store solution in Visual Studio</li>
+<li>Make a change to the web.config by adding a newline or a space in the file</li>
+<li>Right click the web.config and click on Commit</li>
+<li>Enter the required commit message and select Commit all and Push in the dropdown. This will push your change to the VSTS repo and trigger a new CI build.</li>
+<li>Open VSTS in the browser</li>
+<li>Click on the Build and Release tab</li>
+<li>Click on Builds. You should see the build that you just triggered</li>
+</ol>

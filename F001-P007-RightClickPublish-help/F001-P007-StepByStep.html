@@ -1,0 +1,38 @@
+<style>img {max-width: 100%;page-break-inside: avoid;page-break-before: avoid;page-break-after: avoid;}</style><h1>Step By Step: Manually deploy the web application to Azure</h1>
+
+<h2>Locally build and run the web application</h2>
+
+<ol>
+<li>Clone the "GDBC-website" git repo. You can choose to do this with Visual Studio or the command line<br>
+<a href="https://docs.microsoft.com/en-us/vsts/git/tutorial/clone?view=vsts&amp;tabs=command-line#clone-from-visual-studio-team-services--team-foundation-server">See instructions on MSDN</a></li>
+<li>Open the solution in Visual Studio from the location you cloned the repository to.</li>
+<li><p>Change the web.config of the MVCMusicStore project to point to your Azure SQL Server database. Don't forget to replace TEAMNAME and ENVIRONMENT name with you actual values.</p>
+
+<p><code>xml
+&lt;add name="MusicStoreEntities" connectionString="Data Source=sqlserver-TEAMNAME-ENVIRONMENTNAME.database.windows.net;Initial catalog=db-TEAMNAME-ENVIRONMENTNAME;user id=GDBCAdmin;password=vhniNTbo3$9hJvrx{w{rTotqmsFT7_" providerName="System.Data.SqlClient" /&gt;
+</code></p></li>
+<li><p>Check if the SQL Server Firewall allow access.
+In the Azure portal go to your SQL server (sqlserver-TEAMNAME-ENVIRONMENTNAME) and then to 'Firewalls and virtual networks'.</p></li>
+<li>'Allow access to Azure Access' should be on. This isn't a best practice from security perspective, but it will do for this demo purpose.</li>
+<li>Also "Add client IP" to the firewall exceptions</li>
+<li>Build and run the application with Visual Studio in your development environment.</li>
+</ol>
+
+<h2>Deploy the application to Azure</h2>
+
+<ol>
+<li>Right click publish the application to Azure</li>
+<li>Select the MVCMusicStore project, right click on it and select publish</li>
+<li>In the Pick publish target dialog select "App Service" and choose for "Select existing"</li>
+<li>Sign in with your provided Azure subscription credentials when asked</li>
+<li>Select the resource group that you have automatically created (RG-Playground-TEAMNAME) and then select the WebApp that you have created (WebApp-TEAMNAME-ENVIRONMENTNAME)</li>
+<li>Publish your app to Azure by clicking the "Publish" button</li>
+</ol>
+
+<h2>Test</h2>
+
+<ol>
+<li><p>Test if your application is working in Azure by opening the url in a browser. The url should look like this (with your TEAMNAME and ENVIRONMENTNAME as used when created):
+<a href="https://webapp-TEAMNAME-ENVIRONMENTNAME.azurewebsites.net/">https://webapp-TEAMNAME-ENVIRONMENTNAME.azurewebsites.net/</a></p></li>
+<li><p>Now go to this link <a href="https://damianbrady.com.au/2018/02/01/friends-dont-let-friends-right-click-publish/">Right Click Publish</a></p></li>
+</ol>

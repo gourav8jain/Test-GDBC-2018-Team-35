@@ -1,0 +1,1462 @@
+[2018-06-15 16:27:17Z INFO AgentProcess] Agent is built for Windows - win-x64.
+[2018-06-15 16:27:17Z INFO AgentProcess] RuntimeInformation: Microsoft Windows 10.0.17134 .
+[2018-06-15 16:27:17Z INFO AgentProcess] Version: 2.134.2
+[2018-06-15 16:27:17Z INFO AgentProcess] Commit: d903bb07427f1791fcaa73386911cf43aa28c0e1
+[2018-06-15 16:27:17Z INFO AgentProcess] Culture: en-US
+[2018-06-15 16:27:17Z INFO AgentProcess] UI Culture: en-US
+[2018-06-15 16:27:17Z INFO HostContext] Well known directory 'Bin': 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin'
+[2018-06-15 16:27:17Z INFO HostContext] Well known directory 'Root': 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent'
+[2018-06-15 16:27:17Z INFO AgentProcess] Validating directory permissions for: 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent'
+[2018-06-15 16:27:17Z INFO PowerShellExeUtil] Generation: '1'
+[2018-06-15 16:27:17Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1', value name 'Install': '1'
+[2018-06-15 16:27:17Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine', value name 'PowerShellVersion': '2.0'
+[2018-06-15 16:27:17Z INFO PowerShellExeUtil] Unsupported version. Skipping.
+[2018-06-15 16:27:17Z INFO PowerShellExeUtil] Generation: '3'
+[2018-06-15 16:27:17Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3', value name 'Install': '1'
+[2018-06-15 16:27:17Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'PowerShellVersion': '5.1.17134.1'
+[2018-06-15 16:27:17Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'ApplicationBase': 'C:\Windows\System32\WindowsPowerShell\v1.0'
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework', value name 'InstallRoot': 'C:\Windows\Microsoft.NET\Framework64\'
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil] Key name 'SOFTWARE\Microsoft\NET Framework Setup\NDP' contains sub keys:
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil]  'CDF'
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil]  'v2.0.50727'
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil]  'v3.0'
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil]  'v3.5'
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil]  'v4'
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil]  'v4.0'
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727', value name 'Version': '2.0.50727.4927'
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727', value name 'Install': '1'
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil] Testing directory: 'C:\Windows\Microsoft.NET\Framework64\v2.0.50727'
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil] Found version: 2.0.50727
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0', value name 'Version': '3.0.30729.4926'
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0', value name 'Install': '1'
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil] Testing directory: 'C:\Windows\Microsoft.NET\Framework64\v3.0'
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil] Found version: 3.0
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5', value name 'Version': '3.5.30729.4926'
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5', value name 'Install': '1'
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil] Testing directory: 'C:\Windows\Microsoft.NET\Framework64\v3.5'
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil] Found version: 3.5
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4', value name 'Version' is null.
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4', value name '' is null.
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil] Key name 'SOFTWARE\Microsoft\NET Framework Setup\NDP\v4' contains sub keys:
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil]  'Client'
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil]  'Full'
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Version': '4.7.03056'
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Install': '1'
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'InstallPath': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Release': '461808'
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil] Type is System.Int32
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil] Interpreted version: 4.7.0
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Version': '4.7.03056'
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Install': '1'
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'InstallPath': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Release': '461808'
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil] Type is System.Int32
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil] Interpreted version: 4.7.0
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4.0', value name 'Version' is null.
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4.0', value name '': 'deprecated'
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil] Found 5 versions:
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil]  2.0.50727
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil]  3.0
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil]  3.5
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil]  4.7.0
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil]  4.7.0
+[2018-06-15 16:27:17Z INFO NetFrameworkUtil] Testing for min NET Framework version: '4.5'
+[2018-06-15 16:27:17Z INFO HostContext] Well known directory 'Bin': 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin'
+[2018-06-15 16:27:17Z INFO HostContext] Well known directory 'Root': 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent'
+[2018-06-15 16:27:17Z INFO CommandLineParser] Parse
+[2018-06-15 16:27:17Z INFO CommandLineParser] Parsing 3 args
+[2018-06-15 16:27:17Z INFO CommandLineParser] parsing argument
+[2018-06-15 16:27:17Z INFO CommandLineParser] HasArgs: False
+[2018-06-15 16:27:17Z INFO CommandLineParser] Adding Command: run
+[2018-06-15 16:27:17Z INFO CommandLineParser] parsing argument
+[2018-06-15 16:27:17Z INFO CommandLineParser] HasArgs: True
+[2018-06-15 16:27:17Z INFO CommandLineParser] arg: startuptype
+[2018-06-15 16:27:17Z INFO CommandLineParser] parsing argument
+[2018-06-15 16:27:17Z INFO CommandLineParser] HasArgs: True
+[2018-06-15 16:27:17Z INFO CommandLineParser] Adding option 'startuptype': 'service'
+[2018-06-15 16:27:17Z INFO AgentProcess] Arguments parsed
+[2018-06-15 16:27:17Z INFO VstsAgentWebProxy] No proxy setting found.
+[2018-06-15 16:27:17Z INFO AgentCertificateManager] No certificate setting found.
+[2018-06-15 16:27:17Z INFO Agent] ExecuteCommand
+[2018-06-15 16:27:17Z INFO ConfigurationStore] currentAssemblyLocation: C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin\Agent.Listener.dll
+[2018-06-15 16:27:17Z INFO HostContext] Well known directory 'Bin': 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin'
+[2018-06-15 16:27:17Z INFO ConfigurationStore] binPath: C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin
+[2018-06-15 16:27:17Z INFO HostContext] Well known directory 'Bin': 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin'
+[2018-06-15 16:27:17Z INFO HostContext] Well known directory 'Root': 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent'
+[2018-06-15 16:27:17Z INFO ConfigurationStore] RootFolder: C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent
+[2018-06-15 16:27:17Z INFO ConfigurationStore] ConfigFilePath: C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\.agent
+[2018-06-15 16:27:17Z INFO ConfigurationStore] CredFilePath: C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\.credentials
+[2018-06-15 16:27:17Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\.service
+[2018-06-15 16:27:17Z INFO ConfigurationStore] AutoLogonSettingsFilePath: C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\.autologon
+[2018-06-15 16:27:17Z INFO ConfigurationStore] RuntimeOptionsFilePath: C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\.options
+[2018-06-15 16:27:17Z INFO CommandSettings] Flag 'help': 'False'
+[2018-06-15 16:27:17Z INFO CommandSettings] Flag 'version': 'False'
+[2018-06-15 16:27:17Z INFO CommandSettings] Flag 'commit': 'False'
+[2018-06-15 16:27:17Z INFO CommandSettings] Command 'configure': 'False'
+[2018-06-15 16:27:17Z INFO CommandSettings] Command 'remove': 'False'
+[2018-06-15 16:27:17Z INFO CommandSettings] Command 'localRun': 'False'
+[2018-06-15 16:27:17Z INFO ConfigurationManager] LoadSettings
+[2018-06-15 16:27:17Z INFO ConfigurationStore] IsConfigured()
+[2018-06-15 16:27:17Z INFO ConfigurationStore] IsConfigured: True
+[2018-06-15 16:27:17Z INFO ConfigurationManager] Is configured: True
+[2018-06-15 16:27:17Z INFO ConfigurationManager] Settings Loaded
+[2018-06-15 16:27:17Z INFO ConfigurationStore] IsServiceConfigured()
+[2018-06-15 16:27:17Z INFO ConfigurationStore] IsServiceConfigured: True
+[2018-06-15 16:27:17Z INFO ConfigurationStore] IsConfigured()
+[2018-06-15 16:27:17Z INFO ConfigurationStore] IsConfigured: True
+[2018-06-15 16:27:17Z INFO ConfigurationManager] Is configured: True
+[2018-06-15 16:27:17Z INFO Agent] Set agent startup type - Service
+[2018-06-15 16:27:17Z INFO ConfigurationStore] IsAutoLogonConfigured: False
+[2018-06-15 16:27:17Z INFO Agent] RunAsync
+[2018-06-15 16:27:17Z INFO ConfigurationManager] LoadSettings
+[2018-06-15 16:27:17Z INFO ConfigurationStore] IsConfigured()
+[2018-06-15 16:27:17Z INFO ConfigurationStore] IsConfigured: True
+[2018-06-15 16:27:17Z INFO ConfigurationManager] Is configured: True
+[2018-06-15 16:27:17Z INFO ConfigurationManager] Settings Loaded
+[2018-06-15 16:27:17Z INFO MessageListener] {
+  "AgentId": 417,
+  "AgentName": "Default",
+  "PoolId": 672,
+  "ServerUrl": "https://globaldevopsbootcamp.visualstudio.com/",
+  "WorkFolder": "_work"
+}
+[2018-06-15 16:27:17Z INFO Terminal] WRITE LINE: Scanning for tool capabilities.
+[2018-06-15 16:27:17Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Capabilities.ICapabilitiesProvider'
+[2018-06-15 16:27:17Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.AgentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2018-06-15 16:27:17Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.EnvironmentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2018-06-15 16:27:17Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.PowerShellCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'ALLUSERSPROFILE': 'C:\ProgramData'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'APPDATA': 'C:\WINDOWS\ServiceProfiles\NetworkService\AppData\Roaming'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'CommonProgramFiles': 'C:\Program Files\Common Files'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'CommonProgramFiles(x86)': 'C:\Program Files (x86)\Common Files'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'CommonProgramW6432': 'C:\Program Files\Common Files'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'COMPUTERNAME': 'XE-T-GOURAVJA'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'ComSpec': 'C:\WINDOWS\system32\cmd.exe'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'DriverData': 'C:\Windows\System32\Drivers\DriverData'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'FSHARPINSTALLDIR': 'C:\Program Files (x86)\Microsoft SDKs\F#\10.1\Framework\v4.0\'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'LOCALAPPDATA': 'C:\WINDOWS\ServiceProfiles\NetworkService\AppData\Local'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'MSMPI_BIN': 'C:\Program Files\Microsoft MPI\Bin\'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'NUMBER_OF_PROCESSORS': '4'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'OS': 'Windows_NT'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Skipping: 'Path'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'PROCESSOR_ARCHITECTURE': 'AMD64'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 78 Stepping 3, GenuineIntel'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'PROCESSOR_LEVEL': '6'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'PROCESSOR_REVISION': '4e03'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'ProgramData': 'C:\ProgramData'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'ProgramFiles': 'C:\Program Files'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'ProgramFiles(x86)': 'C:\Program Files (x86)'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'ProgramW6432': 'C:\Program Files'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'PSModulePath': 'C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\PowerShell\Modules\'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'PUBLIC': 'C:\Users\Public'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'STACKIFY_PREFIX_ENV': '2012|3.0.18.0|'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'StackifyPath': 'C:\Program Files (x86)\StackifyPrefix'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'StackSquatchUpdated': '2018-06-15T16:25:53.6712271Z'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'SystemDrive': 'C:'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'SystemRoot': 'C:\WINDOWS'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'TEMP': 'C:\WINDOWS\SERVIC~3\NETWOR~1\AppData\Local\Temp'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'TMP': 'C:\WINDOWS\SERVIC~3\NETWOR~1\AppData\Local\Temp'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'USERDOMAIN': 'XEBIAINDIA'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'USERNAME': 'XE-T-GOURAVJA$'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'USERPROFILE': 'C:\WINDOWS\ServiceProfiles\NetworkService'
+[2018-06-15 16:27:17Z INFO EnvironmentCapabilitiesProvider] Adding 'windir': 'C:\WINDOWS'
+[2018-06-15 16:27:17Z INFO PowerShellExeUtil] Generation: '1'
+[2018-06-15 16:27:17Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1', value name 'Install': '1'
+[2018-06-15 16:27:17Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine', value name 'PowerShellVersion': '2.0'
+[2018-06-15 16:27:17Z INFO PowerShellExeUtil] Unsupported version. Skipping.
+[2018-06-15 16:27:17Z INFO PowerShellExeUtil] Generation: '3'
+[2018-06-15 16:27:17Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3', value name 'Install': '1'
+[2018-06-15 16:27:17Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'PowerShellVersion': '5.1.17134.1'
+[2018-06-15 16:27:17Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'ApplicationBase': 'C:\Windows\System32\WindowsPowerShell\v1.0'
+[2018-06-15 16:27:17Z INFO HostContext] Well known directory 'Bin': 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin'
+[2018-06-15 16:27:17Z INFO ProcessInvoker] Starting process:
+[2018-06-15 16:27:17Z INFO ProcessInvoker]   File name: 'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'
+[2018-06-15 16:27:17Z INFO ProcessInvoker]   Arguments: '-NoLogo -Sta -NoProfile -NonInteractive -ExecutionPolicy Unrestricted -Command ". 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin\powershell\Add-Capabilities.ps1'"'
+[2018-06-15 16:27:17Z INFO ProcessInvoker]   Working directory: 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin\powershell'
+[2018-06-15 16:27:17Z INFO ProcessInvoker]   Require exit code zero: 'False'
+[2018-06-15 16:27:17Z INFO ProcessInvoker]   Encoding web name:  ; code page: ''
+[2018-06-15 16:27:17Z INFO ProcessInvoker]   Force kill process on cancellation: 'True'
+[2018-06-15 16:27:17Z INFO ProcessInvoker]   Lines to send through STDIN: '0'
+[2018-06-15 16:27:17Z INFO ProcessInvoker] Process started with process id 11096, waiting for process exit.
+[2018-06-15 16:27:18Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin\powershell\Add-AndroidSdkCapabilities.ps1
+[2018-06-15 16:27:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'CurrentUser', view 'Default', key name 'SOFTWARE\Android SDK Tools', value name 'Path'
+[2018-06-15 16:27:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2018-06-15 16:27:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'SOFTWARE\Android SDK Tools', value name 'Path'
+[2018-06-15 16:27:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2018-06-15 16:27:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'SOFTWARE\Android SDK Tools', value name 'Path'
+[2018-06-15 16:27:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Program Files (x86)\Android\android-sdk'
+[2018-06-15 16:27:18Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=AndroidSDK]C:\Program Files (x86)\Android\android-sdk
+[2018-06-15 16:27:18Z INFO PowerShellCapabilitiesProvider] Adding 'AndroidSDK': 'C:\Program Files (x86)\Android\android-sdk'
+[2018-06-15 16:27:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing container: 'C:\Program Files (x86)\Android\android-sdk\platforms'
+[2018-06-15 16:27:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Exists.
+[2018-06-15 16:27:18Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=AndroidSDK_23]C:\Program Files (x86)\Android\android-sdk\platforms\android-23
+[2018-06-15 16:27:18Z INFO PowerShellCapabilitiesProvider] Adding 'AndroidSDK_23': 'C:\Program Files (x86)\Android\android-sdk\platforms\android-23'
+[2018-06-15 16:27:18Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin\powershell\Add-AntCapabilities.ps1
+[2018-06-15 16:27:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: 'env:ANT_HOME'
+[2018-06-15 16:27:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2018-06-15 16:27:18Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin\powershell\Add-ApplicationCapabilities.ps1
+[2018-06-15 16:27:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'npm'
+[2018-06-15 16:27:18Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=npm]C:\Program Files\nodejs\npm.cmd
+[2018-06-15 16:27:18Z INFO PowerShellCapabilitiesProvider] Adding 'npm': 'C:\Program Files\nodejs\npm.cmd'
+[2018-06-15 16:27:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'gulp'
+[2018-06-15 16:27:24Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2018-06-15 16:27:24Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'node'
+[2018-06-15 16:27:24Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=node.js]C:\Program Files\nodejs\node.exe
+[2018-06-15 16:27:24Z INFO PowerShellCapabilitiesProvider] Adding 'node.js': 'C:\Program Files\nodejs\node.exe'
+[2018-06-15 16:27:24Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'bower'
+[2018-06-15 16:27:24Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2018-06-15 16:27:24Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'grunt'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'svn'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=svn]C:\Program Files\TortoiseSVN\bin\svn.exe
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] Adding 'svn': 'C:\Program Files\TortoiseSVN\bin\svn.exe'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'cmake'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'docker'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=docker]C:\Program Files\Docker\Docker\Resources\bin\docker.exe
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] Adding 'docker': 'C:\Program Files\Docker\Docker\Resources\bin\docker.exe'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin\powershell\Add-AzureGuestAgentCapabilities.ps1
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin\powershell\Add-AzurePowerShellCapabilities.ps1
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Env:PSModulePath: 'C:\WINDOWS\ServiceProfiles\NetworkService\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\PowerShell\Modules\'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Attempting to find the module 'AzureRM' from the module path.
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Attempting to find the module AzureRM.profile
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=AzurePS]5.7.0
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] Adding 'AzurePS': '5.7.0'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin\powershell\Add-ChefCapabilities.ps1
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin\powershell\Add-DotNetFrameworkCapabilities.ps1
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\.NETFramework', value name 'InstallRoot'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework\'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT:   'CDF'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v2.0.50727'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v3.0'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v3.5'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v4'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v4.0'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v2.0.50727', value name 'Version'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '2.0.50727.4927'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v2.0.50727', value name 'Install'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: 2.0.50727.4927
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing container: 'C:\Windows\Microsoft.NET\Framework\v2.0.50727'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Exists.
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_2.0]C:\Windows\Microsoft.NET\Framework\v2.0.50727
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_2.0': 'C:\Windows\Microsoft.NET\Framework\v2.0.50727'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v3.0', value name 'Version'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '3.0.30729.4926'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v3.0', value name 'Install'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: 3.0.30729.4926
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing container: 'C:\Windows\Microsoft.NET\Framework\v3.0'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Exists.
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_3.0]C:\Windows\Microsoft.NET\Framework\v3.0
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_3.0': 'C:\Windows\Microsoft.NET\Framework\v3.0'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v3.5', value name 'Version'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '3.5.30729.4926'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v3.5', value name 'Install'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: 3.5.30729.4926
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing container: 'C:\Windows\Microsoft.NET\Framework\v3.5'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Exists.
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_3.5]C:\Windows\Microsoft.NET\Framework\v3.5
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_3.5': 'C:\Windows\Microsoft.NET\Framework\v3.5'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4', value name 'Version'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4', value name ''
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Client'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Full'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Version'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '4.7.03056'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Install'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'InstallPath'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Release'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '461808'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_4.7.0]C:\Windows\Microsoft.NET\Framework\v4.0.30319
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_4.7.0': 'C:\Windows\Microsoft.NET\Framework\v4.0.30319'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Version'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '4.7.03056'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Install'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'InstallPath'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Release'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '461808'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_4.7.0]C:\Windows\Microsoft.NET\Framework\v4.0.30319
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_4.7.0': 'C:\Windows\Microsoft.NET\Framework\v4.0.30319'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4.0', value name 'Version'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4.0', value name ''
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'deprecated'
+[2018-06-15 16:27:25Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\.NETFramework', value name 'InstallRoot'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework64\'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   'CDF'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v2.0.50727'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v3.0'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v3.5'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v4'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v4.0'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v2.0.50727', value name 'Version'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '2.0.50727.4927'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v2.0.50727', value name 'Install'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: 2.0.50727.4927
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing container: 'C:\Windows\Microsoft.NET\Framework64\v2.0.50727'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Exists.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_2.0_x64]C:\Windows\Microsoft.NET\Framework64\v2.0.50727
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_2.0_x64': 'C:\Windows\Microsoft.NET\Framework64\v2.0.50727'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v3.0', value name 'Version'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '3.0.30729.4926'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v3.0', value name 'Install'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: 3.0.30729.4926
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing container: 'C:\Windows\Microsoft.NET\Framework64\v3.0'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Exists.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_3.0_x64]C:\Windows\Microsoft.NET\Framework64\v3.0
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_3.0_x64': 'C:\Windows\Microsoft.NET\Framework64\v3.0'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v3.5', value name 'Version'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '3.5.30729.4926'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v3.5', value name 'Install'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: 3.5.30729.4926
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing container: 'C:\Windows\Microsoft.NET\Framework64\v3.5'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Exists.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_3.5_x64]C:\Windows\Microsoft.NET\Framework64\v3.5
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_3.5_x64': 'C:\Windows\Microsoft.NET\Framework64\v3.5'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4', value name 'Version'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4', value name ''
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Client'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Full'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Version'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '4.7.03056'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Install'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'InstallPath'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Release'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '461808'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_4.7.0_x64]C:\Windows\Microsoft.NET\Framework64\v4.0.30319
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_4.7.0_x64': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Version'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '4.7.03056'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Install'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'InstallPath'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Release'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '461808'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_4.7.0_x64]C:\Windows\Microsoft.NET\Framework64\v4.0.30319
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_4.7.0_x64': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4.0', value name 'Version'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4.0', value name ''
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'deprecated'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework]C:\Windows\Microsoft.NET\Framework64\v4.0.30319
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin\powershell\Add-JavaCapabilities.ps1
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Runtime Environment\1.6', value name 'JavaHome'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Runtime Environment\1.7', value name 'JavaHome'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Runtime Environment\1.8', value name 'JavaHome'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Program Files (x86)\Java\jre1.8.0_171'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=java_8]C:\Program Files (x86)\Java\jre1.8.0_171
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] Adding 'java_8': 'C:\Program Files (x86)\Java\jre1.8.0_171'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Runtime Environment\1.6', value name 'JavaHome'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Runtime Environment\1.7', value name 'JavaHome'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Runtime Environment\1.8', value name 'JavaHome'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=java]C:\Program Files (x86)\Java\jre1.8.0_171
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] Adding 'java': 'C:\Program Files (x86)\Java\jre1.8.0_171'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Development Kit\1.6', value name 'JavaHome'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Development Kit\1.7', value name 'JavaHome'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Development Kit\1.8', value name 'JavaHome'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Development Kit\1.6', value name 'JavaHome'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Program Files\Java\jdk1.6.0_45'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=jdk_6_x64]C:\Program Files\Java\jdk1.6.0_45
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] Adding 'jdk_6_x64': 'C:\Program Files\Java\jdk1.6.0_45'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Development Kit\1.7', value name 'JavaHome'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Development Kit\1.8', value name 'JavaHome'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=jdk]C:\Program Files\Java\jdk1.6.0_45
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] Adding 'jdk': 'C:\Program Files\Java\jdk1.6.0_45'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin\powershell\Add-MavenCapabilities.ps1
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: env:JAVA_HOME
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or empty.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin\powershell\Add-MSBuildCapabilities.ps1
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\MSBuild\ToolsVersions\2.0', value name 'MSBuildToolsPath'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework\v2.0.50727\'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_2.0]C:\Windows\Microsoft.NET\Framework\v2.0.50727\
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_2.0': 'C:\Windows\Microsoft.NET\Framework\v2.0.50727\'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\MSBuild\ToolsVersions\3.5', value name 'MSBuildToolsPath'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework\v3.5\'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_3.5]C:\Windows\Microsoft.NET\Framework\v3.5\
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_3.5': 'C:\Windows\Microsoft.NET\Framework\v3.5\'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\MSBuild\ToolsVersions\4.0', value name 'MSBuildToolsPath'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_4.0]C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_4.0': 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\MSBuild\ToolsVersions\12.0', value name 'MSBuildToolsPath'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\MSBuild\ToolsVersions\14.0', value name 'MSBuildToolsPath'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Program Files (x86)\MSBuild\14.0\bin\'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_14.0]C:\Program Files (x86)\MSBuild\14.0\bin\
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_14.0': 'C:\Program Files (x86)\MSBuild\14.0\bin\'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 15 setup instance.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -latest -format json
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: [
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   {
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:     "instanceId": "1c5a0c21",
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:     "installDate": "2017-08-01T10:40:23Z",
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:     "installationName": "VisualStudio/15.7.1+27703.2000",
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:     "installationPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional",
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:     "installationVersion": "15.7.27703.2000",
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:     "displayName": "Visual Studio Professional 2017",
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:     "description": "Professional developer tools and services for small teams",
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:     "updateDate": "2018-05-10T06:39:42.7935679Z",
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:     "enginePath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\Installer\\resources\\app\\ServiceHub\\Services\\Microsoft.VisualStudio.Setup.Service",
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:     "channelId": "VisualStudio.15.Release",
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:     "channelPath": "C:\\Users\\gjain\\AppData\\Local\\Microsoft\\VisualStudio\\Packages\\_Channels\\4CB340F5\\catalog.json",
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:     "channelUri": "https://aka.ms/vs/15/release/channel",
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:     "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660692#15.7.1",
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:     "thirdPartyNotices": "https://go.microsoft.com/fwlink/?LinkId=660708"
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   }
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: ]
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing leaf: 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\MSBuild.exe'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Exists.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_15.0]C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_15.0': 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild]C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild': 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\MSBuild\ToolsVersions\2.0', value name 'MSBuildToolsPath'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework64\v2.0.50727\'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_2.0_x64]C:\Windows\Microsoft.NET\Framework64\v2.0.50727\
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_2.0_x64': 'C:\Windows\Microsoft.NET\Framework64\v2.0.50727\'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\MSBuild\ToolsVersions\3.5', value name 'MSBuildToolsPath'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework64\v3.5\'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_3.5_x64]C:\Windows\Microsoft.NET\Framework64\v3.5\
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_3.5_x64': 'C:\Windows\Microsoft.NET\Framework64\v3.5\'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\MSBuild\ToolsVersions\4.0', value name 'MSBuildToolsPath'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_4.0_x64]C:\Windows\Microsoft.NET\Framework64\v4.0.30319\
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_4.0_x64': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\MSBuild\ToolsVersions\12.0', value name 'MSBuildToolsPath'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\MSBuild\ToolsVersions\14.0', value name 'MSBuildToolsPath'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Program Files (x86)\MSBuild\14.0\bin\amd64\'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_14.0_x64]C:\Program Files (x86)\MSBuild\14.0\bin\amd64\
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_14.0_x64': 'C:\Program Files (x86)\MSBuild\14.0\bin\amd64\'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing leaf: 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\amd64\MSBuild.exe'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Exists.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_15.0_x64]C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\amd64\
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_15.0_x64': 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\amd64\'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_x64]C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\amd64\
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_x64': 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\amd64\'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin\powershell\Add-PowerShellCapabilities.ps1
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=PowerShell]5.1.17134.112
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] Adding 'PowerShell': '5.1.17134.112'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin\powershell\Add-ScvmmAdminConsoleCapabilities.ps1
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\Microsoft System Center Virtual Machine Manager Administrator Console\Setup', value name 'InstallPath'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\Microsoft System Center Virtual Machine Manager Administrator Console\Setup', value name 'InstallPath'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin\powershell\Add-SqlPackageCapabilities.ps1
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\Microsoft SQL Server'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   '100'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   '110'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   '130'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   '140'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   '90'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Data-Tier Application Framework'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   'RefCount'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Services'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   'SharedManagementObjects'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\Microsoft SQL Server\140', value name 'VerSpecificRootDir'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Program Files (x86)\Microsoft SQL Server\140\'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing leaf: 'C:\Program Files (x86)\Microsoft SQL Server\140\Dac\bin\SqlPackage.exe'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Exists.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\Microsoft SQL Server\Data-Tier Application Framework'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   '140'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   'CurrentVersion'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   'InstallLocation'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\Microsoft SQL Server\Data-Tier Application Framework\140', value name 'InstallDir'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Program Files (x86)\Microsoft SQL Server\140\DAC\bin\'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing leaf: 'C:\Program Files (x86)\Microsoft SQL Server\140\DAC\bin\SqlPackage.exe'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Exists.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   '10.0'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   '11.0'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   '12.0'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   '14.0'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   '15.0'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   '7.1'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   '8.0'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Debugger'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Extensibility'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Setup'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   'SxS'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   'VSPerf'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\15.0', value name 'InstallDir'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\14.0', value name 'InstallDir'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\12.0', value name 'InstallDir'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\11.0', value name 'InstallDir'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\10.0', value name 'InstallDir'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\8.0', value name 'InstallDir'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\7.1', value name 'InstallDir'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\VisualStudio'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   '14.0'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Debugger'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Setup'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\VisualStudio\14.0', value name 'InstallDir'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 15 setup instance.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -latest -format json
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: [
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   {
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:     "instanceId": "1c5a0c21",
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:     "installDate": "2017-08-01T10:40:23Z",
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:     "installationName": "VisualStudio/15.7.1+27703.2000",
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:     "installationPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional",
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:     "installationVersion": "15.7.27703.2000",
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:     "displayName": "Visual Studio Professional 2017",
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:     "description": "Professional developer tools and services for small teams",
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:     "updateDate": "2018-05-10T06:39:42.7935679Z",
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:     "enginePath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\Installer\\resources\\app\\ServiceHub\\Services\\Microsoft.VisualStudio.Setup.Service",
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:     "channelId": "VisualStudio.15.Release",
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:     "channelPath": "C:\\Users\\gjain\\AppData\\Local\\Microsoft\\VisualStudio\\Packages\\_Channels\\4CB340F5\\catalog.json",
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:     "channelUri": "https://aka.ms/vs/15/release/channel",
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:     "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660692#15.7.1",
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:     "thirdPartyNotices": "https://go.microsoft.com/fwlink/?LinkId=660708"
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   }
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: ]
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing container: 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\SQLDB\DAC'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Exists.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing leaf: 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\SQLDB\DAC\130\SqlPackage.exe'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Exists.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=SqlPackage]C:\Program Files (x86)\Microsoft SQL Server\140\DAC\bin\SqlPackage.exe
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] Adding 'SqlPackage': 'C:\Program Files (x86)\Microsoft SQL Server\140\DAC\bin\SqlPackage.exe'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin\powershell\Add-VisualStudioCapabilities.ps1
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\10.0', value name 'ShellFolder'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\10.0', value name 'InstallDir'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\11.0', value name 'ShellFolder'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\11.0', value name 'InstallDir'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\12.0', value name 'ShellFolder'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\14.0', value name 'ShellFolder'
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 15 setup instance.
+[2018-06-15 16:27:26Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -latest -format json
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: [
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:   {
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:     "instanceId": "1c5a0c21",
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:     "installDate": "2017-08-01T10:40:23Z",
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:     "installationName": "VisualStudio/15.7.1+27703.2000",
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:     "installationPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional",
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:     "installationVersion": "15.7.27703.2000",
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:     "displayName": "Visual Studio Professional 2017",
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:     "description": "Professional developer tools and services for small teams",
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:     "updateDate": "2018-05-10T06:39:42.7935679Z",
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:     "enginePath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\Installer\\resources\\app\\ServiceHub\\Services\\Microsoft.VisualStudio.Setup.Service",
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:     "channelId": "VisualStudio.15.Release",
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:     "channelPath": "C:\\Users\\gjain\\AppData\\Local\\Microsoft\\VisualStudio\\Packages\\_Channels\\4CB340F5\\catalog.json",
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:     "channelUri": "https://aka.ms/vs/15/release/channel",
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:     "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660692#15.7.1",
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:     "thirdPartyNotices": "https://go.microsoft.com/fwlink/?LinkId=660708"
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:   }
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ]
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=VisualStudio_15.0]C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] Adding 'VisualStudio_15.0': 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\'
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing container: 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\'
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Exists.
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=VisualStudio_IDE_15.0]C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] Adding 'VisualStudio_IDE_15.0': 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\'
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing leaf: 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\TestWindow\vstest.console.exe'
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Exists.
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=VSTest_15.0]C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\TestWindow
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] Adding 'VSTest_15.0': 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\TestWindow'
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=VisualStudio]C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] Adding 'VisualStudio': 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\'
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=VisualStudio_IDE]C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] Adding 'VisualStudio_IDE': 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\'
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=VSTest]C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\TestWindow
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] Adding 'VSTest': 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\TestWindow'
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin\powershell\Add-WindowsKitCapabilities.ps1
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\Windows Kits\Installed Roots', value name ''
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin\powershell\Add-WindowsSdkCapabilities.ps1
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\Microsoft SDKs\Windows'
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v8.0A'
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v8.1A'
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\Microsoft SDKs\Windows\v8.0A', value name 'InstallationFolder'
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\Microsoft SDKs\Windows\v8.1A', value name 'InstallationFolder'
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\'
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=WindowsSdk_8.1]C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] Adding 'WindowsSdk_8.1': 'C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A'
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\Microsoft SDKs\Windows\v8.1A'
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:   'WinSDK-NetFx40Tools'
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:   'WinSDK-NetFx40Tools-x64'
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:   'WinSDK-NetFx40Tools-x86'
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\Microsoft SDKs\Windows\v8.1A\WinSDK-NetFx40Tools-x64', value name 'InstallationFolder'
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\x64\'
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=WindowsSdk_8.1_NetFx40Tools_x64]C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\x64
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] Adding 'WindowsSdk_8.1_NetFx40Tools_x64': 'C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\x64'
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\Microsoft SDKs\Windows\v8.1A\WinSDK-NetFx40Tools-x86', value name 'InstallationFolder'
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\'
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=WindowsSdk_8.1_NetFx40Tools]C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] Adding 'WindowsSdk_8.1_NetFx40Tools': 'C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools'
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=WindowsSdk]C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] Adding 'WindowsSdk': 'C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A'
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin\powershell\Add-XamarinAndroidCapabilities.ps1
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Novell\Mono for Android', value name 'InstalledVersion'
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 15 setup instance.
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -latest -format json
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: [
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:   {
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:     "instanceId": "1c5a0c21",
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:     "installDate": "2017-08-01T10:40:23Z",
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:     "installationName": "VisualStudio/15.7.1+27703.2000",
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:     "installationPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional",
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:     "installationVersion": "15.7.27703.2000",
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:     "displayName": "Visual Studio Professional 2017",
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:     "description": "Professional developer tools and services for small teams",
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:     "updateDate": "2018-05-10T06:39:42.7935679Z",
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:     "enginePath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\Installer\\resources\\app\\ServiceHub\\Services\\Microsoft.VisualStudio.Setup.Service",
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:     "channelId": "VisualStudio.15.Release",
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:     "channelPath": "C:\\Users\\gjain\\AppData\\Local\\Microsoft\\VisualStudio\\Packages\\_Channels\\4CB340F5\\catalog.json",
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:     "channelUri": "https://aka.ms/vs/15/release/channel",
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:     "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660692#15.7.1",
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:     "thirdPartyNotices": "https://go.microsoft.com/fwlink/?LinkId=660708"
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT:   }
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ]
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing container: 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Xamarin\Android\'
+[2018-06-15 16:27:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Does not exist.
+[2018-06-15 16:27:27Z INFO ProcessInvoker] Finished process with exit code 0, and elapsed time 00:00:09.6269891.
+[2018-06-15 16:27:27Z INFO AgentCapabilitiesProvider] Adding 'Agent.Name': 'Default'
+[2018-06-15 16:27:27Z INFO AgentCapabilitiesProvider] Adding 'Agent.OS': 'Windows_NT'
+[2018-06-15 16:27:27Z INFO AgentCapabilitiesProvider] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion', value name 'CurrentMajorVersionNumber': '10'
+[2018-06-15 16:27:27Z INFO AgentCapabilitiesProvider] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion', value name 'CurrentMinorVersionNumber': '0'
+[2018-06-15 16:27:27Z INFO AgentCapabilitiesProvider] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion', value name 'CurrentBuildNumber': '17134'
+[2018-06-15 16:27:27Z INFO AgentCapabilitiesProvider] Adding 'Agent.OSVersion': '10.0.17134'
+[2018-06-15 16:27:27Z INFO AgentCapabilitiesProvider] Adding 'Cmd': 'C:\WINDOWS\system32\cmd.exe'
+[2018-06-15 16:27:27Z INFO AgentCapabilitiesProvider] Adding 'InteractiveSession': 'False'
+[2018-06-15 16:27:27Z INFO AgentCapabilitiesProvider] Adding 'Agent.Version': '2.134.2'
+[2018-06-15 16:27:27Z INFO AgentCapabilitiesProvider] Adding 'Agent.ComputerName': 'XE-T-GOURAVJA'
+[2018-06-15 16:27:27Z INFO HostContext] Well known directory 'Bin': 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin'
+[2018-06-15 16:27:27Z INFO HostContext] Well known directory 'Root': 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent'
+[2018-06-15 16:27:27Z INFO AgentCapabilitiesProvider] Adding 'Agent.HomeDirectory': 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent'
+[2018-06-15 16:27:27Z INFO ConfigurationStore] HasCredentials()
+[2018-06-15 16:27:27Z INFO ConfigurationStore] stored True
+[2018-06-15 16:27:27Z INFO CredentialManager] GetCredentialProvider
+[2018-06-15 16:27:27Z INFO CredentialManager] Creating type OAuth
+[2018-06-15 16:27:27Z INFO CredentialManager] Creating credential type: OAuth
+[2018-06-15 16:27:27Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\.credentials_rsaparams
+[2018-06-15 16:27:27Z INFO Terminal] WRITE LINE: Connecting to the server.
+[2018-06-15 16:27:27Z INFO MessageListener] Attempt to create session.
+[2018-06-15 16:27:27Z INFO MessageListener] Connecting to the Agent Server...
+[2018-06-15 16:27:27Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2018-06-15 16:27:28Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2018-06-15 16:27:29Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Date: Fri, 15 Jun 2018 16:25:38 GMT
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/031d05ed-330f-440c-ace7-a1a5d4e52893, Basic realm="https://tfsprodscussu5.app.visualstudio.com/", TFS-Federated
+x-tfs-processid: 2d86c02b-f9a5-4d3c-ab65-0ecb05e8ff0a
+strict-transport-security: max-age=31536000; includeSubDomains
+activityid: 1e3df16d-fbe5-4224-98be-df075ea6dfff
+x-tfs-session: 2a4010ba-1359-4770-8366-977aabfb2f85
+x-vss-e2eid: 360821d6-bb58-43e6-980a-116573e77c1b
+x-frame-options: SAMEORIGIN
+x-tfs-fedauthrealm: https://tfsprodscussu5.app.visualstudio.com/
+x-tfs-fedauthissuer: https://globaldevopsbootcamp.visualstudio.com/
+x-vss-authorizationendpoint: https://globaldevopsbootcamp.vssps.visualstudio.com/
+x-vss-resourcetenant: 031d05ed-330f-440c-ace7-a1a5d4e52893
+x-aspnet-version: 4.0.30319
+x-vss-s2stargetservice: 00000002-0000-8888-8000-000000000000/visualstudio.com
+x-tfs-fedauthredirect: https://app.vssps.visualstudio.com/_signin?realm=globaldevopsbootcamp.visualstudio.com&reply_to=https%3A%2F%2Fglobaldevopsbootcamp.visualstudio.com%2F_apis%2Fdistributedtask%2Fpools%2F672%2Fsessions&redirect=1&context=eyJodCI6MiwiaGlkIjoiNTBiNGM1YzUtMDZmNS00MzVjLTlkZGYtZGM3OGEwM2NmZjQwIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+x-powered-by: ASP.NET
+x-content-type-options: nosniff
+x-msedge-ref: Ref A: 3340C320F5474DC8807EBD5D8D765B2D Ref B: BOM01EDGE0112 Ref C: 2018-06-15T16:25:39Z
+
+[2018-06-15 16:27:29Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\.credentials_rsaparams
+[2018-06-15 16:27:29Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\.credentials_rsaparams
+[2018-06-15 16:27:33Z INFO MessageListener] Session created.
+[2018-06-15 16:27:33Z INFO Terminal] WRITE LINE: 2018-06-15 16:27:33Z: Listening for Jobs
+[2018-06-15 16:27:33Z INFO JobDispatcher] Set agent/worker IPC timeout to 30 seconds.
+[2018-06-15 16:35:09Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\.credentials_rsaparams
+[2018-06-15 16:35:09Z INFO MessageListener] Message '1' received from session 'c496e297-f5d4-4d88-9879-d0de5f454952'.
+[2018-06-15 16:35:09Z INFO JobDispatcher] Job request df143ba0-1c7a-5b21-02e1-d41a394e29c9 received.
+[2018-06-15 16:35:09Z INFO Terminal] WRITE LINE: 2018-06-15 16:35:09Z: Running job: Job
+[2018-06-15 16:35:09Z INFO JobDispatcher] Start renew job request 3590 for job df143ba0-1c7a-5b21-02e1-d41a394e29c9.
+[2018-06-15 16:35:09Z INFO JobDispatcher] Successfully renew job request 3590, job is valid till 6/15/2018 4:38:19 PM
+[2018-06-15 16:35:09Z INFO HostContext] Well known directory 'Bin': 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin'
+[2018-06-15 16:35:09Z INFO ProcessInvoker] Starting process:
+[2018-06-15 16:35:09Z INFO ProcessInvoker]   File name: 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin\Agent.Worker.exe'
+[2018-06-15 16:35:09Z INFO ProcessInvoker]   Arguments: 'spawnclient 2028 2076'
+[2018-06-15 16:35:09Z INFO ProcessInvoker]   Working directory: 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin'
+[2018-06-15 16:35:09Z INFO ProcessInvoker]   Require exit code zero: 'False'
+[2018-06-15 16:35:09Z INFO ProcessInvoker]   Encoding web name:  ; code page: ''
+[2018-06-15 16:35:09Z INFO ProcessInvoker]   Force kill process on cancellation: 'True'
+[2018-06-15 16:35:09Z INFO ProcessInvoker]   Lines to send through STDIN: '0'
+[2018-06-15 16:35:10Z INFO ProcessInvoker] Process started with process id 18596, waiting for process exit.
+[2018-06-15 16:35:10Z INFO JobDispatcher] Send job request message to worker for job df143ba0-1c7a-5b21-02e1-d41a394e29c9.
+[2018-06-15 16:35:10Z INFO JobNotification] Entering JobStarted Notification
+[2018-06-15 16:36:10Z INFO JobDispatcher] Successfully renew job request 3590, job is valid till 6/15/2018 4:39:20 PM
+[2018-06-15 16:37:10Z INFO JobDispatcher] Successfully renew job request 3590, job is valid till 6/15/2018 4:40:20 PM
+[2018-06-15 16:38:09Z INFO ProcessInvoker] Finished process with exit code 102, and elapsed time 00:02:59.5524516.
+[2018-06-15 16:38:09Z INFO JobDispatcher] Worker finished for job df143ba0-1c7a-5b21-02e1-d41a394e29c9. Code: 102
+[2018-06-15 16:38:09Z INFO JobDispatcher] finish job request for job df143ba0-1c7a-5b21-02e1-d41a394e29c9 with result: Failed
+[2018-06-15 16:38:09Z INFO Terminal] WRITE LINE: 2018-06-15 16:38:09Z: Job Job completed with result: Failed
+[2018-06-15 16:38:09Z INFO JobDispatcher] Stop renew job request for job df143ba0-1c7a-5b21-02e1-d41a394e29c9.
+[2018-06-15 16:38:09Z INFO JobDispatcher] job renew has been canceled, stop renew job request 3590.
+[2018-06-15 16:38:09Z INFO JobNotification] Entering JobCompleted Notification
+[2018-06-15 16:41:43Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\.credentials_rsaparams
+[2018-06-15 16:41:43Z INFO MessageListener] Message '2' received from session 'c496e297-f5d4-4d88-9879-d0de5f454952'.
+[2018-06-15 16:41:43Z INFO JobDispatcher] Job request df143ba0-1c7a-5b21-02e1-d41a394e29c9 received.
+[2018-06-15 16:41:43Z INFO JobDispatcher] Job request df143ba0-1c7a-5b21-02e1-d41a394e29c9 processed succeed.
+[2018-06-15 16:41:43Z INFO Terminal] WRITE LINE: 2018-06-15 16:41:43Z: Running job: Job
+[2018-06-15 16:41:43Z INFO JobDispatcher] Start renew job request 3592 for job df143ba0-1c7a-5b21-02e1-d41a394e29c9.
+[2018-06-15 16:41:43Z INFO JobDispatcher] Successfully renew job request 3592, job is valid till 6/15/2018 4:44:53 PM
+[2018-06-15 16:41:43Z INFO HostContext] Well known directory 'Bin': 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin'
+[2018-06-15 16:41:43Z INFO ProcessInvoker] Starting process:
+[2018-06-15 16:41:43Z INFO ProcessInvoker]   File name: 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin\Agent.Worker.exe'
+[2018-06-15 16:41:43Z INFO ProcessInvoker]   Arguments: 'spawnclient 2252 2260'
+[2018-06-15 16:41:43Z INFO ProcessInvoker]   Working directory: 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin'
+[2018-06-15 16:41:43Z INFO ProcessInvoker]   Require exit code zero: 'False'
+[2018-06-15 16:41:43Z INFO ProcessInvoker]   Encoding web name:  ; code page: ''
+[2018-06-15 16:41:43Z INFO ProcessInvoker]   Force kill process on cancellation: 'True'
+[2018-06-15 16:41:43Z INFO ProcessInvoker]   Lines to send through STDIN: '0'
+[2018-06-15 16:41:43Z INFO ProcessInvoker] Process started with process id 20404, waiting for process exit.
+[2018-06-15 16:41:43Z INFO JobDispatcher] Send job request message to worker for job df143ba0-1c7a-5b21-02e1-d41a394e29c9.
+[2018-06-15 16:41:44Z INFO JobNotification] Entering JobStarted Notification
+[2018-06-15 16:42:18Z INFO ProcessInvoker] Finished process with exit code 102, and elapsed time 00:00:34.9953651.
+[2018-06-15 16:42:18Z INFO JobDispatcher] Worker finished for job df143ba0-1c7a-5b21-02e1-d41a394e29c9. Code: 102
+[2018-06-15 16:42:18Z INFO JobDispatcher] finish job request for job df143ba0-1c7a-5b21-02e1-d41a394e29c9 with result: Failed
+[2018-06-15 16:42:18Z INFO Terminal] WRITE LINE: 2018-06-15 16:42:18Z: Job Job completed with result: Failed
+[2018-06-15 16:42:18Z INFO JobDispatcher] Stop renew job request for job df143ba0-1c7a-5b21-02e1-d41a394e29c9.
+[2018-06-15 16:42:18Z INFO JobDispatcher] job renew has been canceled, stop renew job request 3592.
+[2018-06-15 16:42:19Z INFO JobNotification] Entering JobCompleted Notification
+[2018-06-15 16:44:34Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\.credentials_rsaparams
+[2018-06-15 16:44:34Z INFO MessageListener] Message '3' received from session 'c496e297-f5d4-4d88-9879-d0de5f454952'.
+[2018-06-15 16:44:34Z INFO JobDispatcher] Job request df143ba0-1c7a-5b21-02e1-d41a394e29c9 received.
+[2018-06-15 16:44:34Z INFO JobDispatcher] Job request df143ba0-1c7a-5b21-02e1-d41a394e29c9 processed succeed.
+[2018-06-15 16:44:34Z INFO Terminal] WRITE LINE: 2018-06-15 16:44:34Z: Running job: Job
+[2018-06-15 16:44:34Z INFO JobDispatcher] Start renew job request 3593 for job df143ba0-1c7a-5b21-02e1-d41a394e29c9.
+[2018-06-15 16:44:35Z INFO JobDispatcher] Successfully renew job request 3593, job is valid till 6/15/2018 4:47:44 PM
+[2018-06-15 16:44:35Z INFO HostContext] Well known directory 'Bin': 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin'
+[2018-06-15 16:44:35Z INFO ProcessInvoker] Starting process:
+[2018-06-15 16:44:35Z INFO ProcessInvoker]   File name: 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin\Agent.Worker.exe'
+[2018-06-15 16:44:35Z INFO ProcessInvoker]   Arguments: 'spawnclient 2104 2340'
+[2018-06-15 16:44:35Z INFO ProcessInvoker]   Working directory: 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin'
+[2018-06-15 16:44:35Z INFO ProcessInvoker]   Require exit code zero: 'False'
+[2018-06-15 16:44:35Z INFO ProcessInvoker]   Encoding web name:  ; code page: ''
+[2018-06-15 16:44:35Z INFO ProcessInvoker]   Force kill process on cancellation: 'True'
+[2018-06-15 16:44:35Z INFO ProcessInvoker]   Lines to send through STDIN: '0'
+[2018-06-15 16:44:35Z INFO ProcessInvoker] Process started with process id 9296, waiting for process exit.
+[2018-06-15 16:44:35Z INFO JobDispatcher] Send job request message to worker for job df143ba0-1c7a-5b21-02e1-d41a394e29c9.
+[2018-06-15 16:44:35Z INFO JobNotification] Entering JobStarted Notification
+[2018-06-15 16:45:10Z INFO ProcessInvoker] Finished process with exit code 102, and elapsed time 00:00:34.8365161.
+[2018-06-15 16:45:10Z INFO JobDispatcher] Worker finished for job df143ba0-1c7a-5b21-02e1-d41a394e29c9. Code: 102
+[2018-06-15 16:45:10Z INFO JobDispatcher] finish job request for job df143ba0-1c7a-5b21-02e1-d41a394e29c9 with result: Failed
+[2018-06-15 16:45:10Z INFO Terminal] WRITE LINE: 2018-06-15 16:45:10Z: Job Job completed with result: Failed
+[2018-06-15 16:45:10Z INFO JobDispatcher] Stop renew job request for job df143ba0-1c7a-5b21-02e1-d41a394e29c9.
+[2018-06-15 16:45:10Z INFO JobDispatcher] job renew has been canceled, stop renew job request 3593.
+[2018-06-15 16:45:10Z INFO JobNotification] Entering JobCompleted Notification
+[2018-06-15 16:57:33Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\.credentials_rsaparams
+[2018-06-15 16:57:33Z INFO MessageListener] Message '4' received from session 'c496e297-f5d4-4d88-9879-d0de5f454952'.
+[2018-06-15 16:57:33Z INFO JobDispatcher] Job request df143ba0-1c7a-5b21-02e1-d41a394e29c9 received.
+[2018-06-15 16:57:33Z INFO JobDispatcher] Job request df143ba0-1c7a-5b21-02e1-d41a394e29c9 processed succeed.
+[2018-06-15 16:57:33Z INFO Terminal] WRITE LINE: 2018-06-15 16:57:33Z: Running job: Job
+[2018-06-15 16:57:33Z INFO JobDispatcher] Start renew job request 3594 for job df143ba0-1c7a-5b21-02e1-d41a394e29c9.
+[2018-06-15 16:57:33Z INFO JobDispatcher] Successfully renew job request 3594, job is valid till 6/15/2018 5:00:42 PM
+[2018-06-15 16:57:33Z INFO HostContext] Well known directory 'Bin': 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin'
+[2018-06-15 16:57:33Z INFO ProcessInvoker] Starting process:
+[2018-06-15 16:57:33Z INFO ProcessInvoker]   File name: 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin\Agent.Worker.exe'
+[2018-06-15 16:57:33Z INFO ProcessInvoker]   Arguments: 'spawnclient 1004 2312'
+[2018-06-15 16:57:33Z INFO ProcessInvoker]   Working directory: 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin'
+[2018-06-15 16:57:33Z INFO ProcessInvoker]   Require exit code zero: 'False'
+[2018-06-15 16:57:33Z INFO ProcessInvoker]   Encoding web name:  ; code page: ''
+[2018-06-15 16:57:33Z INFO ProcessInvoker]   Force kill process on cancellation: 'True'
+[2018-06-15 16:57:33Z INFO ProcessInvoker]   Lines to send through STDIN: '0'
+[2018-06-15 16:57:33Z INFO ProcessInvoker] Process started with process id 3908, waiting for process exit.
+[2018-06-15 16:57:33Z INFO JobDispatcher] Send job request message to worker for job df143ba0-1c7a-5b21-02e1-d41a394e29c9.
+[2018-06-15 16:57:33Z INFO JobNotification] Entering JobStarted Notification
+[2018-06-15 16:58:05Z INFO ProcessInvoker] Finished process with exit code 102, and elapsed time 00:00:32.4442304.
+[2018-06-15 16:58:05Z INFO JobDispatcher] Worker finished for job df143ba0-1c7a-5b21-02e1-d41a394e29c9. Code: 102
+[2018-06-15 16:58:05Z INFO JobDispatcher] finish job request for job df143ba0-1c7a-5b21-02e1-d41a394e29c9 with result: Failed
+[2018-06-15 16:58:05Z INFO Terminal] WRITE LINE: 2018-06-15 16:58:05Z: Job Job completed with result: Failed
+[2018-06-15 16:58:05Z INFO JobDispatcher] Stop renew job request for job df143ba0-1c7a-5b21-02e1-d41a394e29c9.
+[2018-06-15 16:58:05Z INFO JobDispatcher] job renew has been canceled, stop renew job request 3594.
+[2018-06-15 16:58:06Z INFO JobNotification] Entering JobCompleted Notification
+[2018-06-15 17:22:45Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Date: Fri, 15 Jun 2018 17:20:54 GMT
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/031d05ed-330f-440c-ace7-a1a5d4e52893, Basic realm="https://tfsprodscussu5.app.visualstudio.com/", TFS-Federated
+x-tfs-processid: 2d86c02b-f9a5-4d3c-ab65-0ecb05e8ff0a
+strict-transport-security: max-age=31536000; includeSubDomains
+activityid: 1e2a80cd-fbe5-4224-98be-df075ea6dfff
+x-tfs-session: 2a4010ba-1359-4770-8366-977aabfb2f85
+x-vss-e2eid: e63966ba-f4d1-4699-bbe8-9ee22d291d10
+x-frame-options: SAMEORIGIN
+x-tfs-fedauthrealm: https://tfsprodscussu5.app.visualstudio.com/
+x-tfs-fedauthissuer: https://globaldevopsbootcamp.visualstudio.com/
+x-vss-authorizationendpoint: https://globaldevopsbootcamp.vssps.visualstudio.com/
+x-vss-resourcetenant: 031d05ed-330f-440c-ace7-a1a5d4e52893
+x-aspnet-version: 4.0.30319
+x-vss-s2stargetservice: 00000002-0000-8888-8000-000000000000/visualstudio.com
+x-tfs-fedauthredirect: https://app.vssps.visualstudio.com/_signin?realm=globaldevopsbootcamp.visualstudio.com&reply_to=https%3A%2F%2Fglobaldevopsbootcamp.visualstudio.com%2F_apis%2Fdistributedtask%2Fpools%2F672%2Fmessages%3FsessionId%3Dc496e297-f5d4-4d88-9879-d0de5f454952%26lastMessageId%3D4&redirect=1&context=eyJodCI6MiwiaGlkIjoiNTBiNGM1YzUtMDZmNS00MzVjLTlkZGYtZGM3OGEwM2NmZjQwIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+x-powered-by: ASP.NET
+x-content-type-options: nosniff
+x-msedge-ref: Ref A: E498B12C90824740A8F4F691A078370C Ref B: BOM01EDGE0108 Ref C: 2018-06-15T17:20:54Z
+
+[2018-06-15 17:22:45Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\.credentials_rsaparams
+[2018-06-15 17:25:15Z WARN VisualStudioServices] GET request to https://globaldevopsbootcamp.visualstudio.com/_apis/distributedtask/pools/672/messages?sessionId=c496e297-f5d4-4d88-9879-d0de5f454952&lastMessageId=4 timed out after 100 seconds.
+[2018-06-15 17:25:15Z ERR  MessageListener] Catch exception during get next message.
+[2018-06-15 17:25:16Z ERR  MessageListener] System.TimeoutException: The HTTP request timed out after 00:01:40. ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.Common.VssHttpMessageHandler.<SendAsync>d__17.MoveNext()
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualStudio.Services.Common.VssHttpMessageHandler.<SendAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.Common.VssHttpRetryMessageHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Net.Http.HttpClient.<FinishSendAsyncBuffered>d__58.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.<SendAsync>d__51.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.<SendAsync>d__47`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.<SendAsync>d__28`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.Agent.Listener.MessageListener.<GetNextMessageAsync>d__13.MoveNext()
+[2018-06-15 17:25:16Z INFO MessageListener] Retriable exception: The HTTP request timed out after 00:01:40.
+[2018-06-15 17:25:16Z ERR  Terminal] WRITE ERROR: 2018-06-15 17:25:16Z: Agent connect error: The HTTP request timed out after 00:01:40.. Retrying until reconnected.
+[2018-06-15 17:25:16Z INFO MessageListener] Sleeping for 25.893 seconds before retrying.
+[2018-06-15 17:26:32Z INFO Terminal] WRITE LINE: 2018-06-15 17:26:32Z: Agent reconnected.
+[2018-06-15 17:28:12Z INFO MessageListener] No message retrieved from session 'c496e297-f5d4-4d88-9879-d0de5f454952' within last 30 minutes.
+[2018-06-15 17:43:19Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\.credentials_rsaparams
+[2018-06-15 17:43:19Z INFO MessageListener] Message '5' received from session 'c496e297-f5d4-4d88-9879-d0de5f454952'.
+[2018-06-15 17:43:19Z INFO JobDispatcher] Job request df143ba0-1c7a-5b21-02e1-d41a394e29c9 received.
+[2018-06-15 17:43:19Z INFO JobDispatcher] Job request df143ba0-1c7a-5b21-02e1-d41a394e29c9 processed succeed.
+[2018-06-15 17:43:19Z INFO Terminal] WRITE LINE: 2018-06-15 17:43:19Z: Running job: Job
+[2018-06-15 17:43:19Z INFO JobDispatcher] Start renew job request 3595 for job df143ba0-1c7a-5b21-02e1-d41a394e29c9.
+[2018-06-15 17:43:20Z INFO JobDispatcher] Successfully renew job request 3595, job is valid till 6/15/2018 5:46:29 PM
+[2018-06-15 17:43:20Z INFO HostContext] Well known directory 'Bin': 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin'
+[2018-06-15 17:43:20Z INFO ProcessInvoker] Starting process:
+[2018-06-15 17:43:20Z INFO ProcessInvoker]   File name: 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin\Agent.Worker.exe'
+[2018-06-15 17:43:20Z INFO ProcessInvoker]   Arguments: 'spawnclient 1012 2656'
+[2018-06-15 17:43:20Z INFO ProcessInvoker]   Working directory: 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin'
+[2018-06-15 17:43:20Z INFO ProcessInvoker]   Require exit code zero: 'False'
+[2018-06-15 17:43:20Z INFO ProcessInvoker]   Encoding web name:  ; code page: ''
+[2018-06-15 17:43:20Z INFO ProcessInvoker]   Force kill process on cancellation: 'True'
+[2018-06-15 17:43:20Z INFO ProcessInvoker]   Lines to send through STDIN: '0'
+[2018-06-15 17:43:20Z INFO ProcessInvoker] Process started with process id 14312, waiting for process exit.
+[2018-06-15 17:43:20Z INFO JobDispatcher] Send job request message to worker for job df143ba0-1c7a-5b21-02e1-d41a394e29c9.
+[2018-06-15 17:43:20Z INFO JobNotification] Entering JobStarted Notification
+[2018-06-15 17:44:20Z INFO JobDispatcher] Successfully renew job request 3595, job is valid till 6/15/2018 5:47:29 PM
+[2018-06-15 17:44:20Z INFO ProcessInvoker] Finished process with exit code 100, and elapsed time 00:01:00.5620607.
+[2018-06-15 17:44:20Z INFO JobDispatcher] Worker finished for job df143ba0-1c7a-5b21-02e1-d41a394e29c9. Code: 100
+[2018-06-15 17:44:20Z INFO JobDispatcher] finish job request for job df143ba0-1c7a-5b21-02e1-d41a394e29c9 with result: Succeeded
+[2018-06-15 17:44:20Z INFO Terminal] WRITE LINE: 2018-06-15 17:44:20Z: Job Job completed with result: Succeeded
+[2018-06-15 17:44:20Z INFO JobDispatcher] Stop renew job request for job df143ba0-1c7a-5b21-02e1-d41a394e29c9.
+[2018-06-15 17:44:20Z INFO JobDispatcher] job renew has been canceled, stop renew job request 3595.
+[2018-06-15 17:44:21Z INFO JobNotification] Entering JobCompleted Notification
+[2018-06-15 17:51:34Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\.credentials_rsaparams
+[2018-06-15 17:51:34Z INFO MessageListener] Message '6' received from session 'c496e297-f5d4-4d88-9879-d0de5f454952'.
+[2018-06-15 17:51:34Z INFO JobDispatcher] Job request df143ba0-1c7a-5b21-02e1-d41a394e29c9 received.
+[2018-06-15 17:51:34Z INFO JobDispatcher] Job request df143ba0-1c7a-5b21-02e1-d41a394e29c9 processed succeed.
+[2018-06-15 17:51:34Z INFO Terminal] WRITE LINE: 2018-06-15 17:51:34Z: Running job: Job
+[2018-06-15 17:51:34Z INFO JobDispatcher] Start renew job request 3596 for job df143ba0-1c7a-5b21-02e1-d41a394e29c9.
+[2018-06-15 17:51:35Z INFO JobDispatcher] Successfully renew job request 3596, job is valid till 6/15/2018 5:54:44 PM
+[2018-06-15 17:51:35Z INFO HostContext] Well known directory 'Bin': 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin'
+[2018-06-15 17:51:35Z INFO ProcessInvoker] Starting process:
+[2018-06-15 17:51:35Z INFO ProcessInvoker]   File name: 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin\Agent.Worker.exe'
+[2018-06-15 17:51:35Z INFO ProcessInvoker]   Arguments: 'spawnclient 2128 2856'
+[2018-06-15 17:51:35Z INFO ProcessInvoker]   Working directory: 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin'
+[2018-06-15 17:51:35Z INFO ProcessInvoker]   Require exit code zero: 'False'
+[2018-06-15 17:51:35Z INFO ProcessInvoker]   Encoding web name:  ; code page: ''
+[2018-06-15 17:51:35Z INFO ProcessInvoker]   Force kill process on cancellation: 'True'
+[2018-06-15 17:51:35Z INFO ProcessInvoker]   Lines to send through STDIN: '0'
+[2018-06-15 17:51:35Z INFO ProcessInvoker] Process started with process id 21676, waiting for process exit.
+[2018-06-15 17:51:35Z INFO JobDispatcher] Send job request message to worker for job df143ba0-1c7a-5b21-02e1-d41a394e29c9.
+[2018-06-15 17:51:35Z INFO JobNotification] Entering JobStarted Notification
+[2018-06-15 17:52:18Z INFO ProcessInvoker] Finished process with exit code 100, and elapsed time 00:00:43.6264852.
+[2018-06-15 17:52:18Z INFO JobDispatcher] Worker finished for job df143ba0-1c7a-5b21-02e1-d41a394e29c9. Code: 100
+[2018-06-15 17:52:18Z INFO JobDispatcher] finish job request for job df143ba0-1c7a-5b21-02e1-d41a394e29c9 with result: Succeeded
+[2018-06-15 17:52:18Z INFO Terminal] WRITE LINE: 2018-06-15 17:52:18Z: Job Job completed with result: Succeeded
+[2018-06-15 17:52:18Z INFO JobDispatcher] Stop renew job request for job df143ba0-1c7a-5b21-02e1-d41a394e29c9.
+[2018-06-15 17:52:18Z INFO JobDispatcher] job renew has been canceled, stop renew job request 3596.
+[2018-06-15 17:52:19Z INFO JobNotification] Entering JobCompleted Notification
+[2018-06-15 17:55:32Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\.credentials_rsaparams
+[2018-06-15 17:55:32Z INFO MessageListener] Message '7' received from session 'c496e297-f5d4-4d88-9879-d0de5f454952'.
+[2018-06-15 17:55:32Z INFO JobDispatcher] Job request df143ba0-1c7a-5b21-02e1-d41a394e29c9 received.
+[2018-06-15 17:55:32Z INFO JobDispatcher] Job request df143ba0-1c7a-5b21-02e1-d41a394e29c9 processed succeed.
+[2018-06-15 17:55:32Z INFO Terminal] WRITE LINE: 2018-06-15 17:55:32Z: Running job: Job
+[2018-06-15 17:55:32Z INFO JobDispatcher] Start renew job request 3597 for job df143ba0-1c7a-5b21-02e1-d41a394e29c9.
+[2018-06-15 17:55:33Z INFO JobDispatcher] Successfully renew job request 3597, job is valid till 6/15/2018 5:58:41 PM
+[2018-06-15 17:55:33Z INFO HostContext] Well known directory 'Bin': 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin'
+[2018-06-15 17:55:33Z INFO ProcessInvoker] Starting process:
+[2018-06-15 17:55:33Z INFO ProcessInvoker]   File name: 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin\Agent.Worker.exe'
+[2018-06-15 17:55:33Z INFO ProcessInvoker]   Arguments: 'spawnclient 2612 2108'
+[2018-06-15 17:55:33Z INFO ProcessInvoker]   Working directory: 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin'
+[2018-06-15 17:55:33Z INFO ProcessInvoker]   Require exit code zero: 'False'
+[2018-06-15 17:55:33Z INFO ProcessInvoker]   Encoding web name:  ; code page: ''
+[2018-06-15 17:55:33Z INFO ProcessInvoker]   Force kill process on cancellation: 'True'
+[2018-06-15 17:55:33Z INFO ProcessInvoker]   Lines to send through STDIN: '0'
+[2018-06-15 17:55:33Z INFO ProcessInvoker] Process started with process id 9292, waiting for process exit.
+[2018-06-15 17:55:33Z INFO JobDispatcher] Send job request message to worker for job df143ba0-1c7a-5b21-02e1-d41a394e29c9.
+[2018-06-15 17:55:33Z INFO JobNotification] Entering JobStarted Notification
+[2018-06-15 17:56:17Z INFO ProcessInvoker] Finished process with exit code 100, and elapsed time 00:00:44.0458736.
+[2018-06-15 17:56:17Z INFO JobDispatcher] Worker finished for job df143ba0-1c7a-5b21-02e1-d41a394e29c9. Code: 100
+[2018-06-15 17:56:17Z INFO JobDispatcher] finish job request for job df143ba0-1c7a-5b21-02e1-d41a394e29c9 with result: Succeeded
+[2018-06-15 17:56:17Z INFO Terminal] WRITE LINE: 2018-06-15 17:56:17Z: Job Job completed with result: Succeeded
+[2018-06-15 17:56:17Z INFO JobDispatcher] Stop renew job request for job df143ba0-1c7a-5b21-02e1-d41a394e29c9.
+[2018-06-15 17:56:17Z INFO JobDispatcher] job renew has been canceled, stop renew job request 3597.
+[2018-06-15 17:56:17Z INFO JobNotification] Entering JobCompleted Notification
+[2018-06-15 18:04:06Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\.credentials_rsaparams
+[2018-06-15 18:04:06Z INFO MessageListener] Message '8' received from session 'c496e297-f5d4-4d88-9879-d0de5f454952'.
+[2018-06-15 18:04:06Z INFO JobDispatcher] Job request df143ba0-1c7a-5b21-02e1-d41a394e29c9 received.
+[2018-06-15 18:04:06Z INFO JobDispatcher] Job request df143ba0-1c7a-5b21-02e1-d41a394e29c9 processed succeed.
+[2018-06-15 18:04:06Z INFO Terminal] WRITE LINE: 2018-06-15 18:04:06Z: Running job: Job
+[2018-06-15 18:04:06Z INFO JobDispatcher] Start renew job request 3599 for job df143ba0-1c7a-5b21-02e1-d41a394e29c9.
+[2018-06-15 18:04:06Z INFO JobDispatcher] Successfully renew job request 3599, job is valid till 6/15/2018 6:07:15 PM
+[2018-06-15 18:04:06Z INFO HostContext] Well known directory 'Bin': 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin'
+[2018-06-15 18:04:06Z INFO ProcessInvoker] Starting process:
+[2018-06-15 18:04:06Z INFO ProcessInvoker]   File name: 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin\Agent.Worker.exe'
+[2018-06-15 18:04:06Z INFO ProcessInvoker]   Arguments: 'spawnclient 2140 2404'
+[2018-06-15 18:04:06Z INFO ProcessInvoker]   Working directory: 'C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\bin'
+[2018-06-15 18:04:06Z INFO ProcessInvoker]   Require exit code zero: 'False'
+[2018-06-15 18:04:06Z INFO ProcessInvoker]   Encoding web name:  ; code page: ''
+[2018-06-15 18:04:06Z INFO ProcessInvoker]   Force kill process on cancellation: 'True'
+[2018-06-15 18:04:06Z INFO ProcessInvoker]   Lines to send through STDIN: '0'
+[2018-06-15 18:04:06Z INFO ProcessInvoker] Process started with process id 16528, waiting for process exit.
+[2018-06-15 18:04:06Z INFO JobDispatcher] Send job request message to worker for job df143ba0-1c7a-5b21-02e1-d41a394e29c9.
+[2018-06-15 18:04:06Z INFO JobNotification] Entering JobStarted Notification
+[2018-06-15 18:04:51Z INFO ProcessInvoker] Finished process with exit code 100, and elapsed time 00:00:45.2909134.
+[2018-06-15 18:04:51Z INFO JobDispatcher] Worker finished for job df143ba0-1c7a-5b21-02e1-d41a394e29c9. Code: 100
+[2018-06-15 18:04:51Z INFO JobDispatcher] finish job request for job df143ba0-1c7a-5b21-02e1-d41a394e29c9 with result: Succeeded
+[2018-06-15 18:04:51Z INFO Terminal] WRITE LINE: 2018-06-15 18:04:51Z: Job Job completed with result: Succeeded
+[2018-06-15 18:04:51Z INFO JobDispatcher] Stop renew job request for job df143ba0-1c7a-5b21-02e1-d41a394e29c9.
+[2018-06-15 18:04:51Z INFO JobDispatcher] job renew has been canceled, stop renew job request 3599.
+[2018-06-15 18:04:52Z INFO JobNotification] Entering JobCompleted Notification
+[2018-06-15 18:18:23Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Date: Fri, 15 Jun 2018 18:16:31 GMT
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/031d05ed-330f-440c-ace7-a1a5d4e52893, Basic realm="https://tfsprodscussu5.app.visualstudio.com/", TFS-Federated
+x-tfs-processid: 2d86c02b-f9a5-4d3c-ab65-0ecb05e8ff0a
+strict-transport-security: max-age=31536000; includeSubDomains
+activityid: 1e5ae818-fbe5-4224-98be-df075ea6dfff
+x-tfs-session: 2a4010ba-1359-4770-8366-977aabfb2f85
+x-vss-e2eid: 0f90001b-b63d-40e2-983c-c529d53f0028
+x-frame-options: SAMEORIGIN
+x-tfs-fedauthrealm: https://tfsprodscussu5.app.visualstudio.com/
+x-tfs-fedauthissuer: https://globaldevopsbootcamp.visualstudio.com/
+x-vss-authorizationendpoint: https://globaldevopsbootcamp.vssps.visualstudio.com/
+x-vss-resourcetenant: 031d05ed-330f-440c-ace7-a1a5d4e52893
+x-aspnet-version: 4.0.30319
+x-vss-s2stargetservice: 00000002-0000-8888-8000-000000000000/visualstudio.com
+x-tfs-fedauthredirect: https://app.vssps.visualstudio.com/_signin?realm=globaldevopsbootcamp.visualstudio.com&reply_to=https%3A%2F%2Fglobaldevopsbootcamp.visualstudio.com%2F_apis%2Fdistributedtask%2Fpools%2F672%2Fmessages%3FsessionId%3Dc496e297-f5d4-4d88-9879-d0de5f454952%26lastMessageId%3D8&redirect=1&context=eyJodCI6MiwiaGlkIjoiNTBiNGM1YzUtMDZmNS00MzVjLTlkZGYtZGM3OGEwM2NmZjQwIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+x-powered-by: ASP.NET
+x-content-type-options: nosniff
+x-msedge-ref: Ref A: D13CC8F532214EE1BC29A2702855B2CE Ref B: BOM01EDGE0110 Ref C: 2018-06-15T18:16:32Z
+
+[2018-06-15 18:18:23Z ERR  MessageListener] Catch exception during get next message.
+[2018-06-15 18:18:23Z ERR  MessageListener] System.Security.Cryptography.CryptographicException: RSA key file C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\.credentials_rsaparams was not found
+   at Microsoft.VisualStudio.Services.Agent.Listener.Configuration.RSAEncryptedFileKeyManager.GetKey()
+   at Microsoft.VisualStudio.Services.WebApi.VssSigningCredentials.RSASigningToken.GetSignature(Byte[] input)
+   at Microsoft.VisualStudio.Services.WebApi.Jwt.JsonWebToken.GetSignature(JWTHeader header, JWTPayload payload, JWTAlgorithm alg, VssSigningCredentials signingCredentials)
+   at Microsoft.VisualStudio.Services.WebApi.Jwt.JsonWebToken.Create(String issuer, String audience, DateTime validFrom, DateTime validTo, DateTime issuedAt, IEnumerable`1 additionalClaims, JsonWebToken actor, String actorToken, VssSigningCredentials credentials, Boolean allowExpiredCertificate)
+   at Microsoft.VisualStudio.Services.WebApi.Jwt.JsonWebToken.Create(String issuer, String audience, DateTime validFrom, DateTime validTo, IEnumerable`1 additionalClaims, VssSigningCredentials credentials)
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthJwtBearerAssertion.GetBearerToken()
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthJwtBearerClientCredential.SetParameters(IDictionary`2 parameters)
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenHttpClient.CreateRequestContent(IVssOAuthTokenParameterProvider[] parameterProviders)
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenHttpClient.<GetTokenAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenProvider.<OnGetTokenAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.Common.IssuedTokenProvider.GetTokenOperation.<GetTokenAsync>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.Common.IssuedTokenProvider.<GetTokenAsync>d__33.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.Common.VssHttpMessageHandler.<SendAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.Common.VssHttpRetryMessageHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Net.Http.HttpClient.<FinishSendAsyncBuffered>d__58.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.<SendAsync>d__51.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.<SendAsync>d__47`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.<SendAsync>d__28`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.Agent.Listener.MessageListener.<GetNextMessageAsync>d__13.MoveNext()
+[2018-06-15 18:18:23Z INFO MessageListener] Retriable exception: RSA key file C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\.credentials_rsaparams was not found
+[2018-06-15 18:18:23Z ERR  Terminal] WRITE ERROR: 2018-06-15 18:18:23Z: Agent connect error: RSA key file C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\.credentials_rsaparams was not found. Retrying until reconnected.
+[2018-06-15 18:18:23Z INFO MessageListener] Sleeping for 28.273 seconds before retrying.
+[2018-06-15 18:18:51Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Date: Fri, 15 Jun 2018 18:17:00 GMT
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/031d05ed-330f-440c-ace7-a1a5d4e52893, Basic realm="https://tfsprodscussu5.app.visualstudio.com/", TFS-Federated
+x-tfs-processid: e75d8838-2b72-4cc4-9841-900bd7650a5a
+strict-transport-security: max-age=31536000; includeSubDomains
+activityid: 33feb780-4634-4399-9097-fc88612ca1f9
+x-tfs-session: 2a4010ba-1359-4770-8366-977aabfb2f85
+x-vss-e2eid: 5e8e7cef-e20d-4a8d-b4b3-69c644fa240a
+x-frame-options: SAMEORIGIN
+x-tfs-fedauthrealm: https://tfsprodscussu5.app.visualstudio.com/
+x-tfs-fedauthissuer: https://globaldevopsbootcamp.visualstudio.com/
+x-vss-authorizationendpoint: https://globaldevopsbootcamp.vssps.visualstudio.com/
+x-vss-resourcetenant: 031d05ed-330f-440c-ace7-a1a5d4e52893
+x-aspnet-version: 4.0.30319
+x-vss-s2stargetservice: 00000002-0000-8888-8000-000000000000/visualstudio.com
+x-tfs-fedauthredirect: https://app.vssps.visualstudio.com/_signin?realm=globaldevopsbootcamp.visualstudio.com&reply_to=https%3A%2F%2Fglobaldevopsbootcamp.visualstudio.com%2F_apis%2Fdistributedtask%2Fpools%2F672%2Fmessages%3FsessionId%3Dc496e297-f5d4-4d88-9879-d0de5f454952%26lastMessageId%3D8&redirect=1&context=eyJodCI6MiwiaGlkIjoiNTBiNGM1YzUtMDZmNS00MzVjLTlkZGYtZGM3OGEwM2NmZjQwIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+x-powered-by: ASP.NET
+x-content-type-options: nosniff
+x-msedge-ref: Ref A: FDBE018A99884D3A9A56C33AD0329E0C Ref B: BOM01EDGE0110 Ref C: 2018-06-15T18:17:00Z
+
+[2018-06-15 18:18:51Z ERR  MessageListener] Catch exception during get next message.
+[2018-06-15 18:18:51Z ERR  MessageListener] System.Security.Cryptography.CryptographicException: RSA key file C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\.credentials_rsaparams was not found
+   at Microsoft.VisualStudio.Services.Agent.Listener.Configuration.RSAEncryptedFileKeyManager.GetKey()
+   at Microsoft.VisualStudio.Services.WebApi.VssSigningCredentials.RSASigningToken.GetSignature(Byte[] input)
+   at Microsoft.VisualStudio.Services.WebApi.Jwt.JsonWebToken.GetSignature(JWTHeader header, JWTPayload payload, JWTAlgorithm alg, VssSigningCredentials signingCredentials)
+   at Microsoft.VisualStudio.Services.WebApi.Jwt.JsonWebToken.Create(String issuer, String audience, DateTime validFrom, DateTime validTo, DateTime issuedAt, IEnumerable`1 additionalClaims, JsonWebToken actor, String actorToken, VssSigningCredentials credentials, Boolean allowExpiredCertificate)
+   at Microsoft.VisualStudio.Services.WebApi.Jwt.JsonWebToken.Create(String issuer, String audience, DateTime validFrom, DateTime validTo, IEnumerable`1 additionalClaims, VssSigningCredentials credentials)
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthJwtBearerAssertion.GetBearerToken()
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthJwtBearerClientCredential.SetParameters(IDictionary`2 parameters)
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenHttpClient.CreateRequestContent(IVssOAuthTokenParameterProvider[] parameterProviders)
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenHttpClient.<GetTokenAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenProvider.<OnGetTokenAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.Common.IssuedTokenProvider.GetTokenOperation.<GetTokenAsync>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.Common.IssuedTokenProvider.<GetTokenAsync>d__33.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.Common.VssHttpMessageHandler.<SendAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.Common.VssHttpRetryMessageHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Net.Http.HttpClient.<FinishSendAsyncBuffered>d__58.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.<SendAsync>d__51.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.<SendAsync>d__47`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.<SendAsync>d__28`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.Agent.Listener.MessageListener.<GetNextMessageAsync>d__13.MoveNext()
+[2018-06-15 18:18:51Z INFO MessageListener] Retriable exception: RSA key file C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\.credentials_rsaparams was not found
+[2018-06-15 18:18:51Z INFO MessageListener] Sleeping for 18.857 seconds before retrying.
+[2018-06-15 18:19:10Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Date: Fri, 15 Jun 2018 18:17:19 GMT
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/031d05ed-330f-440c-ace7-a1a5d4e52893, Basic realm="https://tfsprodscussu5.app.visualstudio.com/", TFS-Federated
+x-tfs-processid: e75d8838-2b72-4cc4-9841-900bd7650a5a
+strict-transport-security: max-age=31536000; includeSubDomains
+activityid: 33f95bf9-4634-4399-9097-fc88612ca1f9
+x-tfs-session: 2a4010ba-1359-4770-8366-977aabfb2f85
+x-vss-e2eid: f09af77e-784a-4aa7-ad14-a49e0af0d525
+x-frame-options: SAMEORIGIN
+x-tfs-fedauthrealm: https://tfsprodscussu5.app.visualstudio.com/
+x-tfs-fedauthissuer: https://globaldevopsbootcamp.visualstudio.com/
+x-vss-authorizationendpoint: https://globaldevopsbootcamp.vssps.visualstudio.com/
+x-vss-resourcetenant: 031d05ed-330f-440c-ace7-a1a5d4e52893
+x-aspnet-version: 4.0.30319
+x-vss-s2stargetservice: 00000002-0000-8888-8000-000000000000/visualstudio.com
+x-tfs-fedauthredirect: https://app.vssps.visualstudio.com/_signin?realm=globaldevopsbootcamp.visualstudio.com&reply_to=https%3A%2F%2Fglobaldevopsbootcamp.visualstudio.com%2F_apis%2Fdistributedtask%2Fpools%2F672%2Fmessages%3FsessionId%3Dc496e297-f5d4-4d88-9879-d0de5f454952%26lastMessageId%3D8&redirect=1&context=eyJodCI6MiwiaGlkIjoiNTBiNGM1YzUtMDZmNS00MzVjLTlkZGYtZGM3OGEwM2NmZjQwIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+x-powered-by: ASP.NET
+x-content-type-options: nosniff
+x-msedge-ref: Ref A: 691DA16E5A0F4231BD97985CDF1655BD Ref B: BOM01EDGE0110 Ref C: 2018-06-15T18:17:19Z
+
+[2018-06-15 18:19:10Z ERR  MessageListener] Catch exception during get next message.
+[2018-06-15 18:19:10Z ERR  MessageListener] System.Security.Cryptography.CryptographicException: RSA key file C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\.credentials_rsaparams was not found
+   at Microsoft.VisualStudio.Services.Agent.Listener.Configuration.RSAEncryptedFileKeyManager.GetKey()
+   at Microsoft.VisualStudio.Services.WebApi.VssSigningCredentials.RSASigningToken.GetSignature(Byte[] input)
+   at Microsoft.VisualStudio.Services.WebApi.Jwt.JsonWebToken.GetSignature(JWTHeader header, JWTPayload payload, JWTAlgorithm alg, VssSigningCredentials signingCredentials)
+   at Microsoft.VisualStudio.Services.WebApi.Jwt.JsonWebToken.Create(String issuer, String audience, DateTime validFrom, DateTime validTo, DateTime issuedAt, IEnumerable`1 additionalClaims, JsonWebToken actor, String actorToken, VssSigningCredentials credentials, Boolean allowExpiredCertificate)
+   at Microsoft.VisualStudio.Services.WebApi.Jwt.JsonWebToken.Create(String issuer, String audience, DateTime validFrom, DateTime validTo, IEnumerable`1 additionalClaims, VssSigningCredentials credentials)
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthJwtBearerAssertion.GetBearerToken()
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthJwtBearerClientCredential.SetParameters(IDictionary`2 parameters)
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenHttpClient.CreateRequestContent(IVssOAuthTokenParameterProvider[] parameterProviders)
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenHttpClient.<GetTokenAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenProvider.<OnGetTokenAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.Common.IssuedTokenProvider.GetTokenOperation.<GetTokenAsync>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.Common.IssuedTokenProvider.<GetTokenAsync>d__33.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.Common.VssHttpMessageHandler.<SendAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.Common.VssHttpRetryMessageHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Net.Http.HttpClient.<FinishSendAsyncBuffered>d__58.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.<SendAsync>d__51.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.<SendAsync>d__47`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.<SendAsync>d__28`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.Agent.Listener.MessageListener.<GetNextMessageAsync>d__13.MoveNext()
+[2018-06-15 18:19:10Z INFO MessageListener] Retriable exception: RSA key file C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\.credentials_rsaparams was not found
+[2018-06-15 18:19:10Z INFO MessageListener] Sleeping for 16.505 seconds before retrying.
+[2018-06-15 18:19:27Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Date: Fri, 15 Jun 2018 18:17:36 GMT
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/031d05ed-330f-440c-ace7-a1a5d4e52893, Basic realm="https://tfsprodscussu5.app.visualstudio.com/", TFS-Federated
+x-tfs-processid: e75d8838-2b72-4cc4-9841-900bd7650a5a
+strict-transport-security: max-age=31536000; includeSubDomains
+activityid: 33f942c6-4634-4399-9097-fc88612ca1f9
+x-tfs-session: 2a4010ba-1359-4770-8366-977aabfb2f85
+x-vss-e2eid: e311f5ff-e13e-4e95-8849-8c6279c20681
+x-frame-options: SAMEORIGIN
+x-tfs-fedauthrealm: https://tfsprodscussu5.app.visualstudio.com/
+x-tfs-fedauthissuer: https://globaldevopsbootcamp.visualstudio.com/
+x-vss-authorizationendpoint: https://globaldevopsbootcamp.vssps.visualstudio.com/
+x-vss-resourcetenant: 031d05ed-330f-440c-ace7-a1a5d4e52893
+x-aspnet-version: 4.0.30319
+x-vss-s2stargetservice: 00000002-0000-8888-8000-000000000000/visualstudio.com
+x-tfs-fedauthredirect: https://app.vssps.visualstudio.com/_signin?realm=globaldevopsbootcamp.visualstudio.com&reply_to=https%3A%2F%2Fglobaldevopsbootcamp.visualstudio.com%2F_apis%2Fdistributedtask%2Fpools%2F672%2Fmessages%3FsessionId%3Dc496e297-f5d4-4d88-9879-d0de5f454952%26lastMessageId%3D8&redirect=1&context=eyJodCI6MiwiaGlkIjoiNTBiNGM1YzUtMDZmNS00MzVjLTlkZGYtZGM3OGEwM2NmZjQwIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+x-powered-by: ASP.NET
+x-content-type-options: nosniff
+x-msedge-ref: Ref A: A6B63E2EC3AA41B38327F39727AA2DB0 Ref B: BOM01EDGE0110 Ref C: 2018-06-15T18:17:36Z
+
+[2018-06-15 18:19:27Z ERR  MessageListener] Catch exception during get next message.
+[2018-06-15 18:19:27Z ERR  MessageListener] System.Security.Cryptography.CryptographicException: RSA key file C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\.credentials_rsaparams was not found
+   at Microsoft.VisualStudio.Services.Agent.Listener.Configuration.RSAEncryptedFileKeyManager.GetKey()
+   at Microsoft.VisualStudio.Services.WebApi.VssSigningCredentials.RSASigningToken.GetSignature(Byte[] input)
+   at Microsoft.VisualStudio.Services.WebApi.Jwt.JsonWebToken.GetSignature(JWTHeader header, JWTPayload payload, JWTAlgorithm alg, VssSigningCredentials signingCredentials)
+   at Microsoft.VisualStudio.Services.WebApi.Jwt.JsonWebToken.Create(String issuer, String audience, DateTime validFrom, DateTime validTo, DateTime issuedAt, IEnumerable`1 additionalClaims, JsonWebToken actor, String actorToken, VssSigningCredentials credentials, Boolean allowExpiredCertificate)
+   at Microsoft.VisualStudio.Services.WebApi.Jwt.JsonWebToken.Create(String issuer, String audience, DateTime validFrom, DateTime validTo, IEnumerable`1 additionalClaims, VssSigningCredentials credentials)
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthJwtBearerAssertion.GetBearerToken()
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthJwtBearerClientCredential.SetParameters(IDictionary`2 parameters)
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenHttpClient.CreateRequestContent(IVssOAuthTokenParameterProvider[] parameterProviders)
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenHttpClient.<GetTokenAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenProvider.<OnGetTokenAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.Common.IssuedTokenProvider.GetTokenOperation.<GetTokenAsync>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.Common.IssuedTokenProvider.<GetTokenAsync>d__33.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.Common.VssHttpMessageHandler.<SendAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.Common.VssHttpRetryMessageHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Net.Http.HttpClient.<FinishSendAsyncBuffered>d__58.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.<SendAsync>d__51.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.<SendAsync>d__47`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.<SendAsync>d__28`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.Agent.Listener.MessageListener.<GetNextMessageAsync>d__13.MoveNext()
+[2018-06-15 18:19:27Z INFO MessageListener] Retriable exception: RSA key file C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\.credentials_rsaparams was not found
+[2018-06-15 18:19:27Z INFO MessageListener] Sleeping for 20.34 seconds before retrying.
+[2018-06-15 18:19:48Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Date: Fri, 15 Jun 2018 18:17:56 GMT
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/031d05ed-330f-440c-ace7-a1a5d4e52893, Basic realm="https://tfsprodscussu5.app.visualstudio.com/", TFS-Federated
+x-tfs-processid: 4a050c28-8b37-4b2f-a43e-04ed9ece841d
+strict-transport-security: max-age=31536000; includeSubDomains
+activityid: d8f8898c-ba5e-4ef6-8826-43847f83fcb8
+x-tfs-session: 2a4010ba-1359-4770-8366-977aabfb2f85
+x-vss-e2eid: bd046f67-88c5-41cf-8eaf-756527fa946f
+x-frame-options: SAMEORIGIN
+x-tfs-fedauthrealm: https://tfsprodscussu5.app.visualstudio.com/
+x-tfs-fedauthissuer: https://globaldevopsbootcamp.visualstudio.com/
+x-vss-authorizationendpoint: https://globaldevopsbootcamp.vssps.visualstudio.com/
+x-vss-resourcetenant: 031d05ed-330f-440c-ace7-a1a5d4e52893
+x-aspnet-version: 4.0.30319
+x-vss-s2stargetservice: 00000002-0000-8888-8000-000000000000/visualstudio.com
+x-tfs-fedauthredirect: https://app.vssps.visualstudio.com/_signin?realm=globaldevopsbootcamp.visualstudio.com&reply_to=https%3A%2F%2Fglobaldevopsbootcamp.visualstudio.com%2F_apis%2Fdistributedtask%2Fpools%2F672%2Fmessages%3FsessionId%3Dc496e297-f5d4-4d88-9879-d0de5f454952%26lastMessageId%3D8&redirect=1&context=eyJodCI6MiwiaGlkIjoiNTBiNGM1YzUtMDZmNS00MzVjLTlkZGYtZGM3OGEwM2NmZjQwIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+x-powered-by: ASP.NET
+x-content-type-options: nosniff
+x-msedge-ref: Ref A: F66332E44C314A94B429106790A11AC2 Ref B: BOM01EDGE0110 Ref C: 2018-06-15T18:17:57Z
+
+[2018-06-15 18:19:48Z ERR  MessageListener] Catch exception during get next message.
+[2018-06-15 18:19:48Z ERR  MessageListener] System.Security.Cryptography.CryptographicException: RSA key file C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\.credentials_rsaparams was not found
+   at Microsoft.VisualStudio.Services.Agent.Listener.Configuration.RSAEncryptedFileKeyManager.GetKey()
+   at Microsoft.VisualStudio.Services.WebApi.VssSigningCredentials.RSASigningToken.GetSignature(Byte[] input)
+   at Microsoft.VisualStudio.Services.WebApi.Jwt.JsonWebToken.GetSignature(JWTHeader header, JWTPayload payload, JWTAlgorithm alg, VssSigningCredentials signingCredentials)
+   at Microsoft.VisualStudio.Services.WebApi.Jwt.JsonWebToken.Create(String issuer, String audience, DateTime validFrom, DateTime validTo, DateTime issuedAt, IEnumerable`1 additionalClaims, JsonWebToken actor, String actorToken, VssSigningCredentials credentials, Boolean allowExpiredCertificate)
+   at Microsoft.VisualStudio.Services.WebApi.Jwt.JsonWebToken.Create(String issuer, String audience, DateTime validFrom, DateTime validTo, IEnumerable`1 additionalClaims, VssSigningCredentials credentials)
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthJwtBearerAssertion.GetBearerToken()
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthJwtBearerClientCredential.SetParameters(IDictionary`2 parameters)
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenHttpClient.CreateRequestContent(IVssOAuthTokenParameterProvider[] parameterProviders)
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenHttpClient.<GetTokenAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenProvider.<OnGetTokenAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.Common.IssuedTokenProvider.GetTokenOperation.<GetTokenAsync>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.Common.IssuedTokenProvider.<GetTokenAsync>d__33.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.Common.VssHttpMessageHandler.<SendAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.Common.VssHttpRetryMessageHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Net.Http.HttpClient.<FinishSendAsyncBuffered>d__58.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.<SendAsync>d__51.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.<SendAsync>d__47`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.<SendAsync>d__28`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.Agent.Listener.MessageListener.<GetNextMessageAsync>d__13.MoveNext()
+[2018-06-15 18:19:48Z INFO MessageListener] Retriable exception: RSA key file C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\.credentials_rsaparams was not found
+[2018-06-15 18:19:48Z INFO MessageListener] Sleeping for 27.857 seconds before retrying.
+[2018-06-15 18:20:16Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Date: Fri, 15 Jun 2018 18:18:25 GMT
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/031d05ed-330f-440c-ace7-a1a5d4e52893, Basic realm="https://tfsprodscussu5.app.visualstudio.com/", TFS-Federated
+x-tfs-processid: fd878b20-746a-44c9-a457-7db28e3c2ea3
+strict-transport-security: max-age=31536000; includeSubDomains
+activityid: eb6b3a8e-7dc3-4f2a-9fc9-2e9cf4969f52
+x-tfs-session: 2a4010ba-1359-4770-8366-977aabfb2f85
+x-vss-e2eid: e7f733d8-ea6a-4f34-ae06-f354f8537c1f
+x-frame-options: SAMEORIGIN
+x-tfs-fedauthrealm: https://tfsprodscussu5.app.visualstudio.com/
+x-tfs-fedauthissuer: https://globaldevopsbootcamp.visualstudio.com/
+x-vss-authorizationendpoint: https://globaldevopsbootcamp.vssps.visualstudio.com/
+x-vss-resourcetenant: 031d05ed-330f-440c-ace7-a1a5d4e52893
+x-aspnet-version: 4.0.30319
+x-vss-s2stargetservice: 00000002-0000-8888-8000-000000000000/visualstudio.com
+x-tfs-fedauthredirect: https://app.vssps.visualstudio.com/_signin?realm=globaldevopsbootcamp.visualstudio.com&reply_to=https%3A%2F%2Fglobaldevopsbootcamp.visualstudio.com%2F_apis%2Fdistributedtask%2Fpools%2F672%2Fmessages%3FsessionId%3Dc496e297-f5d4-4d88-9879-d0de5f454952%26lastMessageId%3D8&redirect=1&context=eyJodCI6MiwiaGlkIjoiNTBiNGM1YzUtMDZmNS00MzVjLTlkZGYtZGM3OGEwM2NmZjQwIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+x-powered-by: ASP.NET
+x-content-type-options: nosniff
+x-msedge-ref: Ref A: 60375D119B5B48C7857893C1B14DA3BD Ref B: BOM01EDGE0110 Ref C: 2018-06-15T18:18:25Z
+
+[2018-06-15 18:20:16Z ERR  MessageListener] Catch exception during get next message.
+[2018-06-15 18:20:16Z ERR  MessageListener] System.Security.Cryptography.CryptographicException: RSA key file C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\.credentials_rsaparams was not found
+   at Microsoft.VisualStudio.Services.Agent.Listener.Configuration.RSAEncryptedFileKeyManager.GetKey()
+   at Microsoft.VisualStudio.Services.WebApi.VssSigningCredentials.RSASigningToken.GetSignature(Byte[] input)
+   at Microsoft.VisualStudio.Services.WebApi.Jwt.JsonWebToken.GetSignature(JWTHeader header, JWTPayload payload, JWTAlgorithm alg, VssSigningCredentials signingCredentials)
+   at Microsoft.VisualStudio.Services.WebApi.Jwt.JsonWebToken.Create(String issuer, String audience, DateTime validFrom, DateTime validTo, DateTime issuedAt, IEnumerable`1 additionalClaims, JsonWebToken actor, String actorToken, VssSigningCredentials credentials, Boolean allowExpiredCertificate)
+   at Microsoft.VisualStudio.Services.WebApi.Jwt.JsonWebToken.Create(String issuer, String audience, DateTime validFrom, DateTime validTo, IEnumerable`1 additionalClaims, VssSigningCredentials credentials)
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthJwtBearerAssertion.GetBearerToken()
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthJwtBearerClientCredential.SetParameters(IDictionary`2 parameters)
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenHttpClient.CreateRequestContent(IVssOAuthTokenParameterProvider[] parameterProviders)
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenHttpClient.<GetTokenAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenProvider.<OnGetTokenAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.Common.IssuedTokenProvider.GetTokenOperation.<GetTokenAsync>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.Common.IssuedTokenProvider.<GetTokenAsync>d__33.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.Common.VssHttpMessageHandler.<SendAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.Common.VssHttpRetryMessageHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Net.Http.HttpClient.<FinishSendAsyncBuffered>d__58.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.<SendAsync>d__51.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.<SendAsync>d__47`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.<SendAsync>d__28`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Services.Agent.Listener.MessageListener.<GetNextMessageAsync>d__13.MoveNext()
+[2018-06-15 18:20:16Z INFO MessageListener] Retriable exception: RSA key file C:\Xebia\GDBC Event\Test-GDBC-2018-Team-35\agent\.credentials_rsaparams was not found
+[2018-06-15 18:20:16Z INFO MessageListener] Sleeping for 57.846 seconds before retrying.

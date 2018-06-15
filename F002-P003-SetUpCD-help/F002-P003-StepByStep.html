@@ -1,0 +1,212 @@
+<style>img {max-width: 100%;page-break-inside: avoid;page-break-before: avoid;page-break-after: avoid;}</style><h1>Step By Step: Setup Continuous Delivery</h1>
+
+<h2>Create Service Endpoint</h2>
+
+<p>To deploy our application towards Azure we need to have a service endpoint to be able to connect to Azure from VSTS. 
+In your project there is a Team Administrator available. This account can be used to register the service endpoint. The following steps guide you through the process. </p>
+
+<h3>Create service principal</h3>
+
+<ol>
+<li><p>Verify if your machine is Azure PowerShell ready by running the following command</p></li>
+<li><p>You are good if you see similar output</p></li>
+</ol>
+
+<p><img src=".attachments/image-c3c82b1f-38d5-4071-9930-2f0b4f0744c8.png" alt="image.png"></p>
+
+<ol>
+<li>If not, please follow instructions here to configure this: <a href="https://docs.microsoft.com/en-us/powershell/azure/install-azurerm-ps?view=azurermps-5.7.0">https://docs.microsoft.com/en-us/powershell/azure/install-azurerm-ps?view=azurermps-5.7.0</a></li>
+<li>Download and run this PowerShell script in an Azure PowerShell window <a href="https://github.com/Microsoft/vsts-rm-extensions/blob/master/TaskModules/powershell/Azure/SPNCreation.ps1">https://github.com/Microsoft/vsts-rm-extensions/blob/master/TaskModules/powershell/Azure/SPNCreation.ps1</a>.
+Keep the values listed at the bottom available as well as the password you have choosen.</li>
+</ol>
+
+<p><img src=".attachments/image-303a048e-656e-4bc9-97ac-f6ba1dab83e8.png" alt="image.png"></p>
+
+<p><strong>Note:</strong> some values have been modified in this screen, like subscription name</p>
+
+<h3>Setup Permissions</h3>
+
+<ol>
+<li>Navigate to the Project Admin Page in VSTS by clicking on the gear icon.</li>
+<li>Click on the Security tab</li>
+<li>Navigate to the Endpoint Creators Group</li>
+<li>Add your Team or Teams' users to the Group</li>
+</ol>
+
+<h3>Create Service endpoint</h3>
+
+<ol>
+<li>Navigate to the Services Admin Page in VSTS by clicking on the gear icon.</li>
+<li>Click on the Services tab</li>
+<li>Choose to create a "New Service Endpoint" of type "Azure Resource Manager"</li>
+</ol>
+
+<p><img src=".attachments/image-d2ada4a4-2448-4884-ad0c-d8fe6445622a.png" alt="image.png"></p>
+
+<ol>
+<li>From the dialogue choose to use the full version of the dialogue by clicking the highlighted link</li>
+</ol>
+
+<p><img src=".attachments/image-b60e9c9f-686e-49c0-9757-e4ef8abc8297.png" alt="image.png"></p>
+
+<ol>
+<li>Fill in the dialogue</li>
+</ol>
+
+<p><img src=".attachments/image-d502980a-4f2e-471b-a56f-a69ad75f4b22.png" alt="image.png"></p>
+
+<ol>
+<li>Enter the desired connection name e.g. <strong>GDBC Team X</strong></li>
+<li>Choose <strong>"Azure Cloud"</strong> as your environment</li>
+<li>Enter your <strong>Subscription ID</strong>, copy from the script results</li>
+<li>Enter your <strong>Subscription Name</strong>, copy from the script results</li>
+<li>Enter your <strong>Service Principal Client ID</strong>, copy from the script results</li>
+<li>Enter your <strong>Service Principal Key</strong>, copy from the script results</li>
+<li>Enter your <strong>Tenant ID</strong>, copy from the script results</li>
+<li>Verify your connection by clicking the "Verify Connection" link</li>
+</ol>
+
+<p><img src=".attachments/image-9fe14e05-975c-4745-83cd-86bc2f5b560c.png" alt="image.png"></p>
+
+<h2>Create a Release Definition</h2>
+
+<ol>
+<li>Navigate to VSTS and select your project
+<a href="https://portal.azure.com">https://globaldevopsbootcamp.visualstudio.com</a></li>
+<li>Navigate to the "Build and Release" hub</li>
+<li>Create a new release definition</li>
+</ol>
+
+<p><img src=".attachments/image-9e654f5a-6d8e-42a5-970f-7f8781346e98.png" alt="image.png"></p>
+
+<ol>
+<li>Choose the "Azure App Service Deployment" template</li>
+</ol>
+
+<p><img src=".attachments/image-9fbb0fa1-5543-479d-8608-8caa930ac5e7.png" alt="image.png"></p>
+
+<ol>
+<li>Provide a logical name to the environment, e.g. "Release Verification"</li>
+</ol>
+
+<p><img src=".attachments/image-77546d6e-af41-4221-a388-39ec58604bc4.png" alt="image.png"></p>
+
+<ol>
+<li>Add an artifact to the release </li>
+</ol>
+
+<p><img src=".attachments/image-29ce8775-a6d7-4337-82db-7a771e111be4.png" alt="image.png"></p>
+
+<ol>
+<li>Select the source type "Build", the project should be pre-selected, choose the "Source" (Build Definition), and select "Latest" as version. Then provide a logical name, to be able to refer to the Artifact published by the build later. Then choose "Add" to add this artifact.</li>
+</ol>
+
+<p><img src=".attachments/image-ed77cfff-0d86-46cd-ac00-6a831b61caab.png" alt="image.png"></p>
+
+<ol>
+<li>Add another artifact to the release, this time choose "Git" as Source Type and then select the correct Source (Repository) as well as the Default Branch and Default version. Then provide a logical name to be able to refer to the Artifact to use in the release later.</li>
+</ol>
+
+<p><img src=".attachments/image-a933b847-39f5-44ce-8c22-a2d54aab3c8f.png" alt="image.png"></p>
+
+<ol>
+<li>For the 'Application artifact' set the "Continuous deployment trigger"</li>
+</ol>
+
+<p><img src=".attachments/image-4bf0b716-cb5c-4395-8bfc-b0fa6bb14756.png" alt="image.png"></p>
+
+<ol>
+<li>Enable the Continuous deployment trigger</li>
+</ol>
+
+<p><img src=".attachments/image-ce3fdbd4-a4f6-4b41-99b5-5edf710080f8.png" alt="image.png"></p>
+
+<ol>
+<li>Navigate to the "Tasks" tab</li>
+<li>On your the environment section, choose your azure subscription, and provide a "App Service Name". Choose to use a variable for this e.g. <strong>xjg-webapp-sampleapp</strong>. </li>
+</ol>
+
+<p><img src=".attachments/image-c2e54a97-9dd7-4e62-9aa9-f9be78384589.png" alt="image.png"></p>
+
+<p><strong>Note:</strong> The name of your app service name should be globally unique</p>
+
+<ol>
+<li>Now select the Azure App Service Deployment task, Verify the details. It should match previous selected items. Notice the Package selection. Click the "..." button to select the our application zipfile. </li>
+</ol>
+
+<p><img src=".attachments/image-40eea1ce-7aed-46e0-8c19-2cddf834819c.png" alt="image.png"></p>
+
+<ol>
+<li>Browse to the correct artifact (Build) and select the zip file of our application</li>
+</ol>
+
+<p><img src=".attachments/image-e7535476-97a5-4e77-bb10-67a1a4d4ab3e.png" alt="image.png"></p>
+
+<ol>
+<li>Rename your release, and "Save" it</li>
+</ol>
+
+<p><img src=".attachments/image-9281cbcd-8b72-4d15-b393-771ea3c23761.png" alt="image.png"></p>
+
+<h2>Create a Azure Web App</h2>
+
+<p>Now we have a pipeline that would deploy our application towards Azure. But this would fail while we have not created any infrastructure yet. To be able to succeed we are going to add tasks  to our release to provision the Azure Web App to deploy to. We are using our already created batch files. If not created the files are attachted to the workitem.</p>
+
+<ol>
+<li>Add the Azure CLI Task to the pipeline</li>
+</ol>
+
+<p><img src=".attachments/image-b916e975-b61c-4638-b156-c17d918bf753.png" alt="image.png"></p>
+
+<ol>
+<li>Drag it above the "Deploy Azure App Service" task</li>
+</ol>
+
+<p><img src=".attachments/image-abd19e81-7c0d-414e-b26e-43ff97958664.png" alt="image.png"></p>
+
+<ol>
+<li>Configure the task, select the correct subscription and select the correct deployment script</li>
+</ol>
+
+<p><img src=".attachments/image-5be1e9d1-1fbd-44e0-8245-7eabe17cecbb.png" alt="image.png"></p>
+
+<ol>
+<li>The script contains the following content</li>
+</ol>
+
+<p>```bash
+REM create resource group
+call az group create --name "xjg-rg-sampleapp" --location "West Europe"</p>
+
+<p>REM create appservice plan
+call az appservice plan create -g "xjg-rg-sampleapp" -n "xjg-app-sampleapp" --sku F1</p>
+
+<p>REM create azurewebapp 
+call az webapp create -g "xjg-rg-sampleapp" -p "xjg-app-sampleapp" -n "xjg-webapp-sampleapp"
+```</p>
+
+<p><strong>Note:</strong> You can specify your own preferred naming here. Note that your WAP_NAME, needs to be globally unique. Region needs to be a valid Azure Datacenter name, use the following link to find the correct values.
+<a href="">https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-supported-services</a></p>
+
+<ol>
+<li>Now we automated created of a resource group and Azure Web App.</li>
+</ol>
+
+<h2>Remove the Azure Web App</h2>
+
+<p>Now that we have the environment being created we also want to remove it after creation to minimize costs.
+1. Add another Azure CLI Task to the pipeline
+2. Configure the task to run the "DeleteResourceGroup.bat" file. This contains the following script.</p>
+
+<p><code>bash
+REM delete resource group
+call az group delete --name "xjg-rg-sampleapp" --yes
+</code></p>
+
+<p><strong>Note:</strong> When the Replace Tokens script runs the variables in this script are also replace while we target ALL *.bat files there. If you specify a specific script there you need to do it twice.</p>
+
+<h2>Run your Release</h2>
+
+<p>You have now prepared your release to create the needed Azure Resources, deploy your application and remove it and its resources after creation.
+1. Queue a new release to see if your release runs.
+2. Validate if your CI/CD pipeline is correctly configured by validating if a build runs after a code change, and after successful build, a release is being executed.</p>

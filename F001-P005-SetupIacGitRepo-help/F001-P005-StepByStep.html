@@ -1,0 +1,66 @@
+<style>img {max-width: 100%;page-break-inside: avoid;page-break-before: avoid;page-break-after: avoid;}</style><h1>Step By Step: Move the automation scripts to git version control</h1>
+
+<h2>Install Git for Windows</h2>
+
+<p>You will need Git for Windows to interact with Git on VSTS from your laptop. Download and install it from <a href="https://git-scm.com/download/win">here</a> if you haven't done so already (VM already contains Git).</p>
+
+<h2>Creating a Git repository</h2>
+
+<ol>
+<li>Navigate to VSTS and select your project <a href="https://globaldevopsbootcamp.visualstudio.com">https://globaldevopsbootcamp.visualstudio.com</a></li>
+<li>Navigate to the "Code" hub</li>
+<li>Create a new repository</li>
+</ol>
+
+<p><img src=".attachments/image-e8baa8fc-c122-41f2-a661-159ba60c762e.png" alt="image.png"></p>
+
+<ol>
+<li>Select "Git" as the type, enter the correct repository name and enable the checkbox to add a default Readme file. We will not add a .gitignore file for now. Then click "Create"</li>
+</ol>
+
+<p><img src=".attachments/image-6032b757-17a7-4e74-a049-7f06014539eb.png" alt="image.png"></p>
+
+<ol>
+<li>The repository is created and you will be taken to the repository page. Click "Clone" at the top right and then copy the clone URL.</li>
+</ol>
+
+<p><img src=".attachments/image-d6285fed-83bb-4fff-bf20-a8c76662f78d.png" alt="image.png"></p>
+
+<ol>
+<li>Open a command prompt and navigate to the directory where you want to place the local copy of the repository</li>
+<li>Execute <code>git clone &lt;clone URL&gt;</code>. Your repository will now be cloned locally. </li>
+<li>Check the contents of the directory. If all is well you should see the default Readme file. </li>
+</ol>
+
+<p><img src=".attachments/image-dda02d36-e3bf-49d9-89a6-afdc8a9059e7.png" alt="image.png"></p>
+
+<ol>
+<li>Go back to the command prompt and set the default user name and e-mail address by executing <code>git config --global user.email "you@example.com"</code> and <code>git config --global user.name "Your Name"</code>.
+Replace the email and name values with the VSTS credentials provided by your venue organiser.</li>
+</ol>
+
+<h2>Commit scripts to Git</h2>
+
+<ol>
+<li>Open your locally cloned Git repo in Windows Explorer</li>
+<li>Copy the scripts that you created into this directory: <code>CreateResourceGroup_Fixed.bat</code> and <code>CreateAzureResources.cmd</code></li>
+<li>Open a command prompt and navigate to your local repo directory</li>
+<li>Execute <code>git status</code>. You should see the two scripts as "untracked files"</li>
+</ol>
+
+<p><img src=".attachments/image-24ac0adb-31b8-46ab-8b11-dc13c4180872.png" alt="image.png"> </p>
+
+<ol>
+<li>Execute <code>git add CreateResourceGroup_Fixed.bat</code> and <code>git add CreateAzureResources.cmd</code>.</li>
+<li>Execute <code>git status</code> again. You should now see your two scripts as "Changes to be committed"</li>
+</ol>
+
+<p><img src=".attachments/image-d7a7a465-b7e0-48dd-ae24-161299427a12.png" alt="image.png"></p>
+
+<ol>
+<li>Execute <code>git commit -m "Added scripts for creating resource group and resources"</code>. Your changed will now be committed with a descriptive commit message.</li>
+<li>Execute <code>git push</code>. This will push your local commits to the repository on the server, so in this case to VSTS.</li>
+<li>Look at the repository page in the VSTS web interface (you might need to refresh your browser). You should see the files you just added there.</li>
+</ol>
+
+<p><img src=".attachments/image-5b6608ae-5d45-417c-a32e-fa1b213d465c.png" alt="image.png"></p>
